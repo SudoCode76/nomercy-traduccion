@@ -2219,7 +2219,7 @@ label episode2:
     stop music fadeout 1.0
     play music "music/Mshl.mp3"
     if easymode:
-        show text "Easy Mode points!"
+        show text "Puntos de modo fáciles!"
         show image "images/Stats/Dom[domination].png" at statleft
         show image "images/Stats/Lust[lust].png" at statright
         pause 1
@@ -2230,62 +2230,62 @@ label episode2:
         pause 1
         hide text
     scene new200010 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} As you walked home, midway through, you spotted a girl in the distance dressed in a rather weird outfit."
+    "{color=#A8E4A0}{i}{size=-3} Mientras caminaste a casa, a mitad de camino, viste a una chica en la distancia vestida con un atuendo bastante extraño."
     scene new200011 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} What’s up with her?{p}She looks like a damn jaguar or something..."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} ¿Qué pasa con ella?{p}Parece un maldito jaguar o algo así..."
     scene new200012 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Is she one of those insurance promoters? Maybe there’s a new company with some animal name or something."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} ¿Es ella uno de esos promotores de seguros?Tal vez haya una nueva compañía con un nombre de animal o algo así."
     scene new200013 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} You kept walking, acting casual, but as soon as you got close enough, she practically jumped at you, eager to talk."
-    h "H-Hi! My name’s Sheila.{p}Would you like to save a beaver?"
+    "{color=#A8E4A0}{i}{size=-3}Siguiste caminando, actuando informal, pero tan pronto como te acercaste lo suficientemente cerca, ella prácticamente saltó hacia ti, ansiosa por hablar."
+    h "¡Hi!Mi nombre es Sheila.{p}¿Te gustaría salvar un castor?"
     scene new20003 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} Before responding, you scanned her from head to toe, noticing her slim but curvy figure. She had perky but small breasts, a slim waist, and a rounded, petite ass."
-    e "Hm... I’d need more than a minute with that 'beaver' between your legs, sweetheart."
+    "{color=#A8E4A0}{i}{size=-3} Antes de responder, la escaneaste de la cabeza a los pies, notando su figura delgada pero curvilínea.Tenía pechos alegre pero pequeño, una cintura delgada y un culo redondeado y pequeño."
+    e "Hm ... necesitaría más de un minuto con ese 'castor' entre tus piernas, cariño."
     scene new20004 with dissolve
-    h "E-Excuse me?"
+    h "E-Excuse Me?"
     scene new20004a with dissolve
-    e "Oh... Sorry, what’s this about?"
+    e "Oh ... lo siento, ¿de qué se trata esto?"
     scene new20004 with dissolve
-    h "Ahem... Well, uh, I’m with 'Save the Rivers' a small organization collecting donations and signatures to help save the beavers in town that are being displaced because of corporations dumping pollutants into the river."
+    h "Ejem ... bueno, eh, estoy con 'save the rivers', una pequeña organización recolectando donaciones y firmas para ayudar a salvar a los castores en la ciudad que están siendo desplazados debido a que las corporaciones arrojan contaminantes al río."
     scene new20004c with dissolve
-    h "It's only 50$ that can save the beaver family."
+    h "Es solo 50$ Eso puede salvar a la familia Beaver."
     scene new20004a with dissolve
-    h "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} I hope he agrees...{p}This is my last chance to save these poor animals."
-    e "Right...{p}But shouldn’t you be dressed in something related to beavers?"
+    h "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Espero que esté de acuerdo ....{p}Esta es mi última oportunidad de salvar a estos pobres animales."
+    e "Bien...{p}¿Pero no deberías estar vestido con algo relacionado con los castores?"
     scene new20004b with dissolve
     h "Uh... ¿Qué quieres decir?"
-    e "I mean, you're out here trying to save beavers, but you're dressed like one of their natural predators."
+    e "Quiero decir, estás aquí tratando de salvar a los castores, pero estás vestido como uno de sus depredadores naturales."
     scene new20003b with dissolve
-    h "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} I don't remember what I was supposed to answer to the question about my outfit."
+    h "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} No recuerdo lo que se suponía que debía responder a la pregunta sobre mi atuendo."
     scene new20003c with dissolve
-    h "Oh... Uh... Well..."
-    e "Go ahead, I’m listening."
+    h "Oh ... uh ... bueno ..."
+    e "Sigue adelante, estoy escuchando."
     scene new20003cc with dissolve
-    h "Well...{p}I don’t know, the company makes me wear this.{p}I guess it’s to attract more donors."
-    e "I see... They must be desperate for money, huh?"
+    h "Bien...{p}No sé, la compañía me hace usar esto. {P} Supongo que es atraer a más donantes."
+    e "Ya veo ... deben estar desesperados por dinero, ¿eh?"
     scene new20003a with dissolve
-    h "...Yeah, you could say that.{p}Seems like no one in this city cares about beavers. I haven’t gotten a single dollar all day, and I’ve got to report back in an hour."
+    h "... Sí, podrías decir eso.{p}Parece que a nadie en esta ciudad se preocupa por los castores.No he recibido un solo dólar todo el día, y tengo que informar en una hora."
     scene new20004d with dissolve
-    e "So... you’d do anything to make sure you bring those 50 dollars back to your little company, huh?"
+    e "Entonces ... harías cualquier cosa para asegurarte de traer esos 50 dólares a tu pequeña compañía, ¿eh?"
     scene new20004 with dissolve
-    h "...Yeah, the campaign’s almost over, and I’m not meeting expectations... And we’ve got a really ambitious goal."
+    h "...Yeah, la campaña casi ha terminado, y no estoy cumpliendo con las expectativas ... y tenemos un objetivo realmente ambicioso."
     scene new20004a with dissolve
-    e "Wow, you’re really committed to beavers, huh?{p}What, is your dad one or something?"
+    e "Vaya, estás realmente comprometido con Beavers, ¿eh?{p}¿Qué, es tu papá o algo así?"
     scene new20004e with dissolve
-    h "Ha ha, very funny...{p}Did you know that when beavers build dams, they help prevent flooding and overflows that threaten our city?"
+    h "Ja ja, muy divertida...{p}¿Sabías que cuando los castores construyen presas, ayudan a prevenir inundaciones y desbordamientos que amenazan a nuestra ciudad?"
     scene new20003aa with dissolve
-    e "Uh... I thought it was the opposite."
+    e "Uh ... pensé que era todo lo contrario."
     scene new20004f with dissolve
-    h "Nope, and not just that, beavers are cute, adorable little creatures. I couldn’t live in a world without them."
+    h "No, y no solo eso, los castores son pequeñas criaturas lindas y adorables.No podría vivir en un mundo sin ellos."
     scene new20003aa with dissolve
-    e "I thought you could eat them..."
+    e "Pensé que podrías comerlos ..."
     scene new20004b with dissolve
-    h "Well, yeah...{p}But what kind of lunatic would do that?{p}Would you eat your dog?"
+    h "Bueno, sí...{p}Pero, ¿qué tipo de lunático haría eso?{p}¿Te comerías a tu perro?"
     e "No..."
     scene new20004g with dissolve
-    h "Exactly! I love beavers, not just because they’re chubby and cute, but because of the role they play in our ecosystem. But above all...-"
+    h "¡Exactamente!Amo a Beavers, no solo porque son gorditos y lindos, sino por el papel que juegan en nuestro ecosistema.Pero sobre todo ....-"
     scene new20004c with dissolve
-    h "...beavers are nature's engineers, creating complex dams and lodges that reshape landscapes and create vital wetland habitats...."
+    h "..Los huelguistas son los ingenieros de la naturaleza, que crean presas y alojamientos complejos que remodelan los paisajes y crean hábitats vitales de humedales..."
     $ timeout_label = "beaver1"
     $ timeout = 1
     menu:
@@ -2293,7 +2293,7 @@ label episode2:
             jump beaver1
 label beaver1:
     scene new20004h with dissolve
-    h "These industrious rodents are keystone species, meaning their presence has a disproportionately large impact on their environment, benefiting countless other plants and animals. "
+    h "Estos roedores laboriosos son especies clave, lo que significa que su presencia tiene un impacto desproporcionadamente grande en su entorno, beneficiando a innumerables otras plantas y animales. "
     $ timeout_label = "beaver2"
     $ timeout = 1
     menu:
@@ -2301,7 +2301,7 @@ label beaver1:
             jump beaver2
 label beaver2:
     scene new20004 with dissolve
-    h "Their ponds and wetlands act as natural water filters, improving water quality and helping to mitigate droughts and floods."
+    h "Sus estanques y humedales actúan como filtros de agua naturales, mejorando la calidad del agua y ayudando a mitigar sequías e inundaciones."
     $ timeout_label = "beaver3"
     $ timeout = 1
     menu:
@@ -2309,127 +2309,127 @@ label beaver2:
             jump beaver3
 label beaver3:
     scene new20003a with dissolve
-    h "Moreover, beaver habitats serve as carbon sinks, playing a crucial role in combating climate change by storing significant amounts of greenhouse gases."
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Oh god, when is she going to shut up? "
+    h "Además, los hábitats de castores sirven como sumideros de carbono, jugando un papel crucial en la combinación del cambio climático al almacenar cantidades significativas de gases de efecto invernadero."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Oh Dios, ¿cuándo se va a callar? "
     scene new20004 with dissolve
 
     if easymode:
         menu:
-            "Alright, shut up! Here’s your $50. Bye. \n{color=#3d85c6} -50$ and no scene" if money >= 50:
+            "Muy bien, cállate!Aquí está tu $50. Adiós. \n{color=#3d85c6} -50$ y sin escena" if money >= 50:
                 $ money -= 50
                 $ sheilahappy = True
                 scene new20004e with dissolve
-                h "Oh!...{p} Well, I wasn’t expecting that reaction...{p}Gracias!"
-                e "Yeah, yeah... Whatever. You’re welcome."
+                h "Oh!...{p} Bueno, no esperaba esa reacción ...{p}Gracias!"
+                e "Sí, sí ... lo que sea.De nada."
                 scene new20003c with dissolve
-                h "Would you also like to sign here to elevate my company’s petition to the honorable city council?"
+                h "¿También le gustaría firmar aquí para elevar la petición de mi empresa al Honorable Ayuntamiento?"
                 scene new20003aa with dissolve
-                e "I guess..."
-                "{color=#A8E4A0}{i}{size=-3} You grabbed the pen and signed the petition."
-                e "Done."
+                e "Supongo..."
+                "{color=#A8E4A0}{i}{size=-3} Agarraste la pluma y firmaste la petición."
+                e "Hecho."
                 scene new20004f with dissolve
-                h "T-Thank you!{p}Goodbye!"
-                "{color=#A8E4A0}{i}{size=-3} Sheila rushed off since she was running late to return to her company."
+                h "T-gracias!{p}GoAdiós
+                "{color=#A8E4A0}{i}{size=-3} Sheila se apresuró desde que llegaba tarde para regresar a su compañía."
                 jump eveningep2
 
 
-            "Nah, I’m good. Fuck The Beavtles. I don’t even like their music":
+            "No, estoy bien.A la mierda los Beavtles.Ni siquiera me gusta su música":
 
                 scene new20004angry with dissolve
-                h "Beavers, not The Beavtles"
+                h "Castores, no los beavtles"
                 scene new20004listen with dissolve
-                e "Oh... Yeah, nope. Don’t care about them either."
+                e "Oh ... sí, no.Tampoco me importan."
                 scene new20004sad with dissolve
-                h "B-But!{p}Please!"
+                h "B-pero!{p}Por favor!"
                 scene new20004sad2 with dissolve
-                e "Nope."
+                e "No."
                 scene new20004sad with dissolve
-                h "I-I’ll do anything! Please! I can’t go back empty-handed!"
+                h "¡Haré cualquier cosa!¡Por favor!¡No puedo volver con las manos vacías!"
                 scene new20004sad2 with dissolve
-                e "Hold on... Did you just say anything?"
+                e "Espera ... ¿Acabas de decir algo?"
                 scene new20003e with dissolve
-                h "Yes..."
+                h "Sí..."
                 scene new20004sad2 with dissolve
-                e "Well... Follow me.{p}I think we can work something out..."
+                e "Bueno ... sígueme.{p}Creo que podemos resolver algo..."
                 scene new20004angry with dissolve
-                h "W-What? Follow you? To where!?"
+                h "¿Qué?Seguirte?¿¡A donde!?"
                 scene new20004sad2 with dissolve
-                e "Perhaps... that alley right there..."
+                e "Tal vez ... ese callejón allí mismo ...."
                 scene new20004 with dissolve
-                h "Uhm...{p}But why!?{p}Can't you just tell me about your deal here!?"
+                h "Uhm ...{p}¡Pero por qué!?{p}¿No puedes contarme sobre tu trato aquí?"
                 scene new20004listen with dissolve
-                e "Uh... No. It's kind of secret.{p}Don't want any unwanted ears peeking."
+                e "Uh ... No. Es una especie de secreto.{p}No quiera que niñes no deseados se asoman."
                 scene new20004c with dissolve
-                h "... Alright..."
-                "{color=#A8E4A0}{i}{size=-3} Sheila followed you into the alley halfway down the street."
+                h "... Está bien..."
+                "{color=#A8E4A0}{i}{size=-3} SHeila te siguió al callejón a la mitad de la calle."
                 jump alleysheila
 
-            "Hey, did you really mean ‘anything’ for that money?":
+            "Oye, ¿realmente quisiste decir "algo" para ese dinero?":
                 scene new20003e with dissolve
-                h "Yes..."
+                h "Sí..."
                 scene new20004sad2 with dissolve
-                e "Are you sure?"
+                e "Estas segura"
                 scene new20004b with dissolve
-                h "Yeah! I’d do anything for them..."
+                h "¡Sí!Haría cualquier cosa por ellos ...."
                 scene new20004sad2 with dissolve
-                e "Well... Follow me.{p}I think we can work something out..."
+                e "Bueno ... sígueme.{p}Creo que podemos resolver algo..."
                 scene new20004angry with dissolve
-                h "W-What? Follow you? To where!?"
+                h "¿Qué?Seguirte?¿¡A donde!?"
                 scene new20004sad2 with dissolve
-                e "Perhaps... that alley right there..."
+                e "Quizás ... ese callejón allí mismo..."
                 scene new20004 with dissolve
-                h "Uhm...{p}But why!?{p}Can't you just tell me about your deal here!?"
+                h "Uhm...{p}¿¡Pero por qué!?{p}¿No puedes contarme sobre tu trato aquí?"
                 scene new20004listen with dissolve
-                e "Uh... No. It's kind of secret.{p}Don't want any unwanted ears peeking."
+                e "Uh... No.Es una especie de secreto.{p}No quiero que las orejas no deseadas se asoman."
                 scene new20004c with dissolve
-                h "... Alright..."
-                "{color=#A8E4A0}{i}{size=-3} Sheila followed you into the alley halfway down the street."
+                h "... Está bien..."
+                "{color=#A8E4A0}{i}{size=-3} Sheila te siguió al callejón a la mitad de la calle."
                 jump alleysheila
 
     else:
         menu:
-            "Alright, shut up! Here’s your $50. Bye." if money >= 50:
+            "Muy bien, cállate!Aquí está tu $50. Adiós." if money >= 50:
                 $ money -= 50
                 $ sheilahappy = True
                 scene new20004e with dissolve
-                h "Oh!...{p} Well, I wasn’t expecting that reaction...{p}Gracias!"
-                e "Yeah, yeah... Whatever. You’re welcome."
+                h "Oh!...{p} Bueno, no esperaba esa reacción ...{p}Gracias!"
+                e "Sí, sí ... lo que sea.De nada."
                 scene new20003c with dissolve
-                h "Would you also like to sign here to elevate my company’s petition to the honorable city council?"
+                h "¿También le gustaría firmar aquí para elevar la petición de mi empresa al Honorable Ayuntamiento?"
                 scene new20003aa with dissolve
                 e "I guess..."
-                "{color=#A8E4A0}{i}{size=-3} You grabbed the pen and signed the petition."
-                e "Done."
+                "{color=#A8E4A0}{i}{size=-3} Agarraste la pluma y firmaste la petición."
+                e "Hecho."
                 scene new20004f with dissolve
-                h "T-Thank you!{p}Goodbye!"
-                "{color=#A8E4A0}{i}{size=-3} Sheila rushed off since she was running late to return to her company."
+                h "T-gracias!{p}Adiós!"
+                "{color=#A8E4A0}{i}{size=-3} Sheila se apresuró desde que estaba llegando tarde para regresar a su compañía."
                 jump eveningep2
 
 
-            "Nah, I’m good. Fuck The Beavtles. I don’t even like their music":
+            "No, estoy bien.A la mierda los Beavtles.Ni siquiera me gusta su música":
 
                 scene new20004angry with dissolve
-                h "Beavers, not The Beavtles"
+                h "Castores, no los beavtles"
                 scene new20004listen with dissolve
-                e "Oh... Yeah, nope. Don’t care about them either."
+                e "Oh ... sí, no.Tampoco me importan."
                 scene new20004sad with dissolve
-                h "B-But!{p}Please!"
+                h "B pero!{p}Por favor!"
                 scene new20004sad2 with dissolve
                 e "Nope."
                 scene new20004sad with dissolve
-                h "I-I’ll do anything! Please! I can’t go back empty-handed!"
+                h "¡Haré cualquier cosa!¡Por favor!¡No puedo volver con las manos vacías!"
                 scene new20004sad2 with dissolve
-                e "Hold on... Did you just say anything?"
+                e "Espera ... ¿Acabas de decir algo?"
                 scene new20003e with dissolve
-                h "Yes..."
+                h "Sí..."
                 scene new20004sad2 with dissolve
-                e "Well... Follow me.{p}I think we can work something out..."
+                e "Bueno ... sígueme.{p}Creo que podemos resolver algo ..."
                 scene new20004angry with dissolve
-                h "W-What? Follow you? To where!?"
+                h "¿Qué?Seguirte?¿¡A donde!?"
                 scene new20004sad2 with dissolve
-                e "Perhaps... that alley right there..."
+                e "Tal vez ... ese callejón allí mismo ...."
                 scene new20004 with dissolve
-                h "Uhm...{p}But why!?{p}Can't you just tell me about your deal here!?"
+                h "Uhm...{p}¿¡Pero por qué!?{p}¿No puedes contarme sobre tu trato aquí?"
                 scene new20004listen with dissolve
                 e "Uh... No. It's kind of secret.{p}Don't want any unwanted ears peeking."
                 scene new20004c with dissolve
