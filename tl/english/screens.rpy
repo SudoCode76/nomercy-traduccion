@@ -3,63 +3,63 @@
 translate english strings:
 
     # game/screens.rpy:447
-    old "Back"
+    old "Atrás"
     new ""
 
     # game/screens.rpy:448
-    old "History"
+    old "Historia"
     new ""
 
     # game/screens.rpy:449
-    old "Skip"
+    old "Saltar"
     new ""
 
     # game/screens.rpy:450
-    old "Auto"
+    old "auto"
     new ""
 
     # game/screens.rpy:451
-    old "Save"
+    old "Ahorrar"
     new ""
 
     # game/screens.rpy:452
-    old "Q.Save"
+    old "Q.Ahorrar"
     new ""
 
     # game/screens.rpy:453
-    old "Q.Load"
+    old "Q.Carga"
     new ""
 
     # game/screens.rpy:454
-    old "Options"
+    old "Opción"
     new ""
 
     # game/screens.rpy:493
-    old "{size=+8}Start"
+    old "{size=+8}Comenzar"
     new ""
 
     # game/screens.rpy:499
-    old "Load"
+    old "Carga"
     new ""
 
     # game/screens.rpy:501
-    old "Settings"
+    old "Ajustes"
     new ""
 
     # game/screens.rpy:505
-    old "End Replay"
+    old "Reproducción final"
     new ""
 
     # game/screens.rpy:509
-    old "Main Menu"
+    old "Menú de juego"
     new ""
 
     # game/screens.rpy:514
-    old "Gallery"
+    old "Galería"
     new ""
 
     # game/screens.rpy:515
-    old "Achievements"
+    old "Logros"
     new ""
 
     # game/screens.rpy:519
@@ -71,11 +71,11 @@ translate english strings:
     new ""
 
     # game/screens.rpy:527
-    old "Quit"
+    old "Abandonar"
     new ""
 
     # game/screens.rpy:670
-    old "Return"
+    old "Devolver"
     new ""
 
     # game/screens.rpy:741

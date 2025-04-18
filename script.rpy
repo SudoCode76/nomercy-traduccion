@@ -418,7 +418,7 @@ label ep1start:
     hide screen hint
     scene 0001 with Fade(2.0, 1.0, 1.0)
     show screen hint("Solo para su información.No soy tan corto, ¡solo estoy escabullido!")
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Estoy viviendo con mi [mujer_role] y papá, y esta noche me arrastré hasta la puerta de su habitación."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Estoy viviendo con mi [woman_role] y papá, y esta noche me arrastré hasta la puerta de su habitación."
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Veamoslo y verás por qué estamos aquí ..."
     hide screen hint
     show screen hint("Espero que sea un adulto ...")
@@ -439,7 +439,7 @@ label ep1start:
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Pero ahora mismo, parece un poco... ocupada."
     pause
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Verá, una mujer casada, tarde en la noche, complaciendo a un hombre con la boca ... no es exactamente una cosa inusual en la mayoría de los hogares."
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Excepto por una pequeña cosa ... {P} ese hombre no es mi papá, ¡y estoy seguro de que sabe que no estará en casa hasta mañana!"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Excepto por una pequeña cosa ... {p} ese hombre no es mi papá, ¡y estoy seguro de que sabe que no estará en casa hasta mañana!"
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} ... y no tengo idea de quién es ese hijo de puta ..."
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} No soy estúpido, así que es hora de reunir un poco de evidencia.Sonríe por la cámara."
     play sound "music/camera.mp3"
@@ -553,7 +553,7 @@ label episode1:
     $ renpy.pause(2, hard=True)
     hide text with dissolve
     scene 10022a with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Malditos clases.¿Por qué fui a la universidad? {P} podría ir a trabajar."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Malditos clases.¿Por qué fui a la universidad? {p} podría ir a trabajar."
     scene 10022b with dissolve
     e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Ya no siento que estoy aprendiendo nada, y las chicas están tan jodidas que no puedo manejar ninguno de ellos."
     scene 10022c with dissolve
@@ -1149,7 +1149,7 @@ label niechcepieniedzy:
     z "Hm?"
     z "No me interesa jugar.Solo quiero que dejes a Tommy solo"
     e "Oh, no es un juego, ya sabes."
-    e "No quieres hacer un gran problema, ¿verdad? {P} ... Quiero que me muestres tus tetas"
+    e "No quieres hacer un gran problema, ¿verdad? {p} ... Quiero que me muestres tus tetas"
 label showmeinthecar:
     scene 10040zdziwiona with dissolve
     z "Espera ... ¿qué?"
@@ -2261,7 +2261,7 @@ label episode2:
     h "Oh ... uh ... bueno ..."
     e "Sigue adelante, estoy escuchando."
     scene new20003cc with dissolve
-    h "Bien...{p}No sé, la compañía me hace usar esto. {P} Supongo que es atraer a más donantes."
+    h "Bien...{p}No sé, la compañía me hace usar esto. {p} Supongo que es atraer a más donantes."
     e "Ya veo ... deben estar desesperados por dinero, ¿eh?"
     scene new20003a with dissolve
     h "... Sí, podrías decir eso.{p}Parece que a nadie en esta ciudad se preocupa por los castores.No he recibido un solo dólar todo el día, y tengo que informar en una hora."
@@ -2328,7 +2328,7 @@ label beaver3:
                 "{color=#A8E4A0}{i}{size=-3} Agarraste la pluma y firmaste la petición."
                 e "Hecho."
                 scene new20004f with dissolve
-                h "T-gracias!{p}GoAdiós
+                h "T-gracias!{p}GoAdiós"
                 "{color=#A8E4A0}{i}{size=-3} Sheila se apresuró desde que llegaba tarde para regresar a su compañía."
                 jump eveningep2
 
@@ -2364,7 +2364,7 @@ label beaver3:
                 "{color=#A8E4A0}{i}{size=-3} SHeila te siguió al callejón a la mitad de la calle."
                 jump alleysheila
 
-            "Oye, ¿realmente quisiste decir "algo" para ese dinero?":
+            "Oye, ¿realmente quisiste decir algo ara ese dinero?":
                 scene new20003e with dissolve
                 h "Sí..."
                 scene new20004sad2 with dissolve
@@ -2437,67 +2437,67 @@ label beaver3:
                 "{color=#A8E4A0}{i}{size=-3} Sheila followed you into the alley halfway down the street."
                 jump alleysheila
 
-            "Hey, did you really mean ‘anything’ for that money?":
+            "Oye, ¿realmente quisiste decir "algo" para ese dinero?":
                 scene new20003e with dissolve
-                h "Yes..."
+                h "Sí..."
                 scene new20004sad2 with dissolve
-                e "Are you sure?"
+                e "Estas segura"
                 scene new20004b with dissolve
-                h "Yeah! I’d do anything for them..."
+                h "¡Sí!Haría cualquier cosa por ellos..."
                 scene new20004sad2 with dissolve
-                e "Well... Follow me.{p}I think we can work something out..."
+                e "Bueno ... sígueme.{p}Creo que podemos resolver algo ...."
                 scene new20004angry with dissolve
-                h "W-What? Follow you? To where!?"
+                h "¿Qué?Seguirte?¿¡A donde!?"
                 scene new20004sad2 with dissolve
-                e "Perhaps... that alley right there..."
+                e "Quizás ... ese callejón allí mismo..."
                 scene new20004 with dissolve
-                h "Uhm...{p}But why!?{p}Can't you just tell me about your deal here!?"
+                h "Uhm...{p}Pero por qué!?{p}¿No puedes contarme sobre tu trato aquí?"
                 scene new20004listen with dissolve
-                e "Uh... No. It's kind of secret.{p}Don't want any unwanted ears peeking."
+                e "Uh... No. Es una especie de secreto.{p}No quiero que las orejas no deseadas se asoman."
                 scene new20004c with dissolve
-                h "... Alright..."
-                "{color=#A8E4A0}{i}{size=-3} Sheila followed you into the alley halfway down the street."
+                h "... Está bien..."
+                "{color=#A8E4A0}{i}{size=-3} Sheila te siguió al callejón a la mitad de la calle."
                 jump alleysheila
 
 label alleysheila:
     scene black with fade
     pause
     scene new20005 with dissolve
-    e "Look, I’ve got a serious proposal for you..."
+    e "Mira, tengo una propuesta seria para ti..."
     scene alejka7 with dissolve
-    h "Yeah...{p}Tell me..."
+    h "Sí...{p}Dime..."
     scene alejka7a with dissolve
-    e "I can see you don’t want to walk away empty-handed...{p}And I don’t want to go home with my balls full..."
+    e "Puedo ver que no quieres alejarte con las manos vacías..{p}Y no quiero ir a casa con mis bolas llenas ...."
     scene alejka6 with dissolve
-    e "If you catch my drift..."
+    e "Si atrapas mi deriva..."
     scene alejka3 with dissolve
-    h "Wait...{p}Are you suggesting..."
+    h "Esperar...{p}Estas sugiriendo..."
     scene alejka2 with dissolve
-    e "Come on, you help me, I help you.{p}What do you say?"
+    e "Vamos, me ayudas, te ayudo.{p}¿Qué dices?"
     scene alejka0 with dissolve
-    h "You’re crazy!"
+    h "¡Estás loco!"
     scene alejka1 with dissolve
-    e "Hey, think of the poor beavers! Besides, none of these jerks in the city are giving you money. Maybe they think you're a scammer or something."
+    e "¡Oye, piensa en los pobres castores!Además, ninguno de estos idiotas en la ciudad te está dando dinero.Tal vez piensan que eres un estafador o algo así."
     scene alejka4 with dissolve
-    h "...I’m not a scammer..."
+    h "...No soy un estafador ...."
     scene alejka0 with dissolve
-    h "P-Poor beavers, they really need our help...{p}My help..."
+    h "Beavers pobres en P, realmente necesitan nuestra ayuda ...{p}Mi ayuda..."
     scene alejka2 with dissolve
-    e "So... Are you going to waste this opportunity to help them?"
+    e "Entonces ... ¿vas a desperdiciar esta oportunidad para ayudarlos?"
     scene alejka3 with dissolve
     h "... No..."
     scene alejka7a with dissolve
-    e "Then come on, cheer up! Show me those tits..."
+    e "¡Entonces vamos, anímate!Muéstrame esas tetas..."
     scene alejka6 with dissolve
-    h "W-Wha!?{p}N-¡De ninguna manera!"
+    h "W-¿Quién?{p}N-¡De ninguna manera!"
     scene alejka7 with dissolve
-    h "I thought you meant another type of deal! What the hell!?"
+    h "¡Pensé que te referías a otro tipo de trato!¿¡Qué demonios!?"
     scene alejka7 with dissolve
-    e "Do you have another choice? It's either flashing your tits or letting beavers die.{p}Up to you"
+    e "¿Tienes otra opción?Está parpadeando tus tetas o dejando morir a los castores.{p}Tú decides"
     scene alejka4 with dissolve
-    h "Y-You're one thoughtless bastard!"
+    h "¡Eres un bastardo irreflexivo!"
     scene alejka5 with dissolve
-    e "And you're one broke bitch that needs 50$ for a cause that no one outside your little company care about. What a shame.{p}Tits or leave. Now."
+    e "Y usted es una perra en quiebra que necesita 50 $ por una causa que a nadie fuera de su pequeña empresa le importa.Qué vergüenza.{p}Tetas o dejar.Ahora."
     scene alejka1 with dissolve
     h "Ugh..."
     scene new20006 with dissolve
@@ -2505,65 +2505,65 @@ label alleysheila:
     scene new20007 with dissolve
     pause 0.5
     scene new20008 with dissolve
-    e "Mmm...{p}Your nipples are hard...{p}Seems like you’re enjoying this..."
+    e "Mmm...{p}Tus pezones son difíciles ....{p}Parece que estás disfrutando de esto..."
     scene new20008a with dissolve
-    h "It’s all for the beavers... Anything for them... Okay?"
+    h "Es todo para las castores ... Algo para ellas ... ¿De acuerdo?"
     scene new20008b with dissolve
-    e "Then... Turn around and let me see that ass first..."
+    e "Entonces ... dale la vuelta y déjame ver ese culo primero ...."
     scene new20008c with dissolve
-    h "H-Huh!? I thought we were... done!"
+    h "¿H-huh!?Pensé que estábamos ... ¡HECHO!"
     scene new20008b with dissolve
-    e "Our deal was to empty my balls. They're not empty yet, and I need some good build-up. Come on."
+    e "Nuestro trato era vaciar mis bolas.Todavía no están vacíos, y necesito una buena acumulación.Vamos."
     scene new20008d with dissolve
-    h "...{p}A-Alright, but make it quick..."
+    h "...{p}A-Intra, pero hazlo rápido..."
     scene new20008e with dissolve
-    h "Lives are at stake..."
-    e "Yeah, yeah... Whatever you say..."
+    h "Las vidas están en juego.."
+    e "Sí, sí ... lo que digas..."
     scene new20009a with dissolve
-    "{color=#A8E4A0}{i}{size=-3} She turned around, and you quickly took the opportunity to give those cheeks a good look, looking at them in their full glory."
+    "{color=#A8E4A0}{i}{size=-3} Se dio la vuelta, y rápidamente aprovechaste la oportunidad para darle un buen aspecto a esas mejillas, mirándolas en toda su gloria."
     show sheillback with dissolve
-    "{color=#A8E4A0}{i}{size=-3} Round, slim and tight packing, that's exactly what they were."
-    "{color=#A8E4A0}{i}{size=-3} After fully seeing it, you pulled out your throbbing cock, already dripping at the sight of her."
-    e "Now turn around. You'll blow me off."
+    "{color=#A8E4A0}{i}{size=-3}Empacado redondo, delgado y apretado, eso es exactamente lo que eran."
+    "{color=#A8E4A0}{i}{size=-3} Después de verlo completamente, sacaste tu polla palpitante, ya goteando al verla."
+    e "Ahora date la vuelta.Me volarás."
     h "B-But..."
-    e "Do it. It's part of the deal. You either suck me or I'm gone."
-    h "... Okay! Guh... Fuck."
+    e "Hazlo.Es parte del trato.O me chupas o me voy."
+    h "... ¡Bueno!Guh ... joder."
     scene new20010 with dissolve
     pause
     scene new20011 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} Sheila turned around, kneeling in front of you as you aimed your cock at her lips."
+    "{color=#A8E4A0}{i}{size=-3} Sheila se dio la vuelta, arrodillándose frente a ti mientras apuntaba tu polla a sus labios."
     scene new20012 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} Hesitant, but resigned, she opened her mouth, allowing your cock inside."
+    "{color=#A8E4A0}{i}{size=-3} Vacilante, pero renunció, abrió la boca, permitiendo tu polla adentro."
     scene new20013 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} You pressed your cock against her lips, and let it all in, as you began to face-fuck her like nothing."
+    "{color=#A8E4A0}{i}{size=-3} Presionaste tu polla contra sus labios y lo dejas entrar, mientras empezaste a pelarla como nada."
     show sheillbj with dissolve
-    "{color=#A8E4A0}{i}{size=-3} With both palms holding her head, you began thrusting, feeling how she locked her lips around your cock, sucking it in, knowing what she was doing."
-    e "Good... Seal your lips around it, make it worthwhile."
+    "{color=#A8E4A0}{i}{size=-3} Con ambas palmas sosteniendo la cabeza, comenzaste a empujar, sintiendo cómo se cerró los labios alrededor de tu polla, chupándola, sabiendo lo que estaba haciendo."
+    e "Buena ... Sella tus labios alrededor de él, haz que valga la pena."
     h "Gu-uh!"
-    "{color=#A8E4A0}{i}{size=-3} She nodded, and began to seal her lips tight on your throbbing cock, applying pressure to it, while you bobbed her head with your hands."
-    "{color=#A8E4A0}{i}{size=-3} You kept thrusting your hips fast, as your balls hit her chin repeatedly."
-    e "Mmm...{p}Such a good sucker. I'm 'bout to nut!"
-    "{color=#A8E4A0}{i}{size=-3} You grabbed her from her suit's ears, perhaps taunting and asserting your dominance, thrusting the last few inches faster."
-    e "Now we know what these were for... Gotta give credit to your boss for this one."
+    "{color=#A8E4A0}{i}{size=-3} Ella asintió y comenzó a sellar los labios con fuerza sobre tu palpitante polla, aplicando presión, mientras te sacudiste la cabeza con las manos las manos."
+    "{color=#A8E4A0}{i}{size=-3} Siguiste empujando las caderas rápidamente, ya que tus bolas golpean su barbilla repetidamente."
+    e "Mmm...{p}Un buen tonto.¡Estoy a la nuez!"
+    "{color=#A8E4A0}{i}{size=-3} La agarraste de las orejas de su traje, tal vez burlándose y afirmando tu dominio, empujando los últimos pulgadas más rápido."
+    e "Ahora sabemos para qué fueron estos ... tengo que dar crédito a su jefe por este."
     h "Mpfh...Guh!"
     scene sheilcm1 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} As your balls kept hitting, and your dick kept thrust, finally, with a low groan, you came deep in her mouth, splashing her throat, and entire mouth with thick ropes of cum."
+    "{color=#A8E4A0}{i}{size=-3} Mientras tus bolas seguían golpeando, y tu polla mantuvo empuje, finalmente, con un gemido bajo, te metiste en la boca, salpicaste la garganta y la boca entera con gruesas cuerdas de semen."
     scene sheilcm2 with vpunch
     pause
     scene sheilcm3 with vpunch
     pause
     scene sheilcm4 with dissolve
     $ maxmccumep7 += 1
-    e "Mmm...{p}Swallow it all, you basket case."
+    e "Mmm...{p}Tragarlo todo, estuche de canasta."
     scene sheilcm5 with dissolve
     pause
     scene sheilcm6 with dissolve
     "{color=#ffa500}{i}*gulp*"
-    "{color=#A8E4A0}{i}{size=-3} Sheila gagged but managed to swallow most of it."
+    "{color=#A8E4A0}{i}{size=-3} Sheila amordazó pero logró tragarse la mayor parte."
     scene sheilcm7 with dissolve
-    h "Gah... Ugh... I-I did it... for the beavers... Anything for them..."
+    h "Gah... Uf ... lo hice ... por los castores ... cualquier cosa por ellas..."
     scene sheilcm9 with dissolve
-    "{color=#A8E4A0}{i}{size=-3} You zipped up, watching her as she struggled to regain her composure, still kneeling in front of you, her cheeks blushed."
+    "{color=#A8E4A0}{i}{size=-3} Te enloqueciste, mirándola mientras luchaba por recuperar la compostura, todavía arrodillándose frente a ti, sus mejillas se sonrojaban."
     $ renpy.end_replay()
     if not easymode:
             $ achValid2 += 1
@@ -2574,8 +2574,8 @@ label alleysheila:
                                 zoom 0.5
                                 rotate_animation
 
-                     "You have received the achievement!{p}{b}\"It's all for the beavers.\".{/b}"
-                     "Number of achievements earned in this chapter [achValid2]/4"
+                     "¡Has recibido el logro!{p}{b}\"Todo es para los castores.\".{/b}"
+                     "Número de logros obtenidos en este capítulo [achValid2]/4"
                      hide Achiev21
                      $ persistent.achievement21 = True
 
@@ -2586,7 +2586,7 @@ label alleysheila:
             hide text
             $ sheiladominated = True
             scene sheilcm10 with dissolve
-            e "Here’s your fucking money."
+            e "Aquí está tu maldito dinero."
             scene sheilcm11 with dissolve
             pause
             scene sheilcm11a with dissolve
@@ -2605,17 +2605,17 @@ label alleysheila:
             show text "{font=LilitaOne.ttf}{color=#e0d71d}Total: [money]${/color}{/font}"
             pause 2
             hide text with dissolve
-            "{color=#A8E4A0}{i}{size=-3} You grabbed the 50$ and threw the crumpled bills in her face. She flinched, but quickly scrambled to gather them up."
+            "{color=#A8E4A0}{i}{size=-3} Agarraste los 50 $ y arrojaste las facturas arrugadas en la cara.Ella se estremeció, pero rápidamente se apresuró a recogerlos."
             scene sheilcm11j with dissolve
             pause
             scene sheilcm11k with dissolve
             pause
             scene sheilcm11l with dissolve
-            h "Forty...{p}Fifty..."
+            h "Cuarenta...{p}Cincuenta..."
             scene sheilcm11m with dissolve
-            h "R-Right...{p}Gracias..."
+            h "R-Bien...{p}Gracias..."
             scene sheilcm11n with dissolve
-            "{color=#A8E4A0}{i}{size=-3} Without another word, she stuffed the cash into her bag, and left."
+            "{color=#A8E4A0}{i}{size=-3} Sin otra palabra, metió el efectivo en su bolso y se fue."
             scene sheilcm11o with dissolve
             pause
             scene black with Fade(2.0, 1.0, 2.0)
@@ -2623,43 +2623,43 @@ label alleysheila:
             jump eveningep2
 
 
-        "Pay her normally {size=-6}{color=#e0d71d}50${/color}{/size}" if money >= 50:
+        "Pagarla normalmente {size=-6}{color=#e0d71d}50${/color}{/size}" if money >= 50:
             hide text
             $ sheilahappysx = True
             scene sheilcm10 with dissolve
-            e "Here’s your 50$. You did a pretty well job there"
+            e "Aquí están tus 50 $.Hiciste un trabajo bastante bien allí"
             $ money -= 50
             play sound "music/buyshop.mp3"
             show text "{font=LilitaOne.ttf}{color=#e0d71d}Total: [money]${/color}{/font}"
             pause 2
             hide text with dissolve
             scene sheilcm11 with dissolve
-            "{color=#A8E4A0}{i}{size=-3} You handed her the money, and she took it with shaking hands."
+            "{color=#A8E4A0}{i}{size=-3} Le entregaste el dinero, y ella lo tomó con la mano temblorosa."
             scene sheilcm11l with dissolve
             pause
             scene sheilcm11m with dissolve
-            h "T-Thank you...{p}You’ve really helped us today."
-            e "Yeah, sure."
-            "{color=#A8E4A0}{i}{size=-3} You turned and walked away, leaving her to collect herself."
+            h "T-gracias...{p}Realmente nos has ayudado hoy."
+            e "Si, seguro."
+            "{color=#A8E4A0}{i}{size=-3} Te giraste y te alejaste, dejándola para recogerse."
             scene black with Fade(2.0, 1.0, 2.0)
             pause
             jump eveningep2
 
 
-        "Cheat and go away":
+        "Hacer trampa y vete":
             hide text
             $ sheilacheated = True
             scene sheilllast with dissolve
-            e "Yeah, about that..."
+            e "Sí, sobre eso..."
             scene sheilllasta with dissolve
-            e "I don’t have any cash."
+            e "No tengo dinero en efectivo."
             scene sheilllastb with dissolve
-            h "W-What?!"
-            e "Gotta go."
+            h "¿Qué?!"
+            e "Tengo que irme."
             scene sheilllastc with dissolve
-            "{color=#A8E4A0}{i}{size=-3} You turned on your heel and ran off without looking back, leaving her in the alley, stunned."
+            "{color=#A8E4A0}{i}{size=-3} Te encendiste el talón y te escapaste sin mirar hacia atrás, dejándola en el callejón, aturdido."
             scene sheilllastd with dissolve
-            h "H-Hey! You can’t just...{p}Come back!"
+            h "H-Hey! No puedes simplemente...{p}¡Regresar!"
             scene black with Fade(2.0, 1.0, 2.0)
             pause
 
@@ -2676,13 +2676,13 @@ label eveningep2:
     pause
     scene 00000prologc with fade
 
-    m "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} How did I get myself into this mess....?"
+    m "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} ¿Cómo me metí en este desastre?..?"
     m "..."
-    m "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} I don't wanna face the answer to that now. But I do need to talk with him..."
+    m "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} No quiero enfrentar la respuesta a eso ahora.Pero necesito hablar con él..."
 
     scene 20000 with fade
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Ugh, I've been sitting here for hours, watching this rubbish...{p}Is she going to stay hidden away all night?"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Ugh, he estado sentado aquí durante horas, viendo esta basura..{p}¿Se va a quedarse escondida toda la noche?"
 
     scene 20000 with dissolve:
         xalign 0.8
@@ -2690,20 +2690,20 @@ label eveningep2:
         zoom 2
         ease 2 zoom 4
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Maybe she's waiting for me to come visit her..."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Tal vez ella está esperando que venga a visitarla ...."
 
     scene 20000aTo20000eAnimated with dissolve:
         xalign 0.8
         yalign 0.4
         zoom 4
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} But I guess probably not."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Pero supongo que probablemente no."
 
     scene 20000 with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} That's the sound of her bedroom door..."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Ese es el sonido de la puerta de su habitación..."
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Here she comes."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Aquí ella viene."
 
     scene 20001 with dissolve
 
@@ -2711,22 +2711,22 @@ label eveningep2:
 
     m "[player_name]"
 
-    m "We need to talk. {p}Now."
+    m "Nosotras necesitamos hablar{p}Ahora."
 
-    e "Sure, I'm not busy.{p}What do you want to talk about?"
+    e "Claro que no estoy ocupada{p}¿De qué quieres hablar?"
 
     scene 20001a
 
-    m "Turn off the TV."
+    m "Apague el televisor."
 
-    m "We need to discuss... what happened."
+    m "Necesitamos discutir ... lo que pasó."
 
     if easymode:
         menu:
-            "{color=#FFD1DF}{i}*Turn off the TV*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Apagar el televisor*{/i}{/color}":
                 jump wylacztelewizor
 
-            "{color=#FFD1DF}{i}*Leave the TV on*{/i}{/color} \n{color=#3d85c6} +1 Point":
+            "{color=#FFD1DF}{i}*Deja el televisor encendido*{/i}{/color} \n{color=#3d85c6} +1 Point":
                 if not easymode:
                     $ achValid2 += 1
                     $ achievement.grant("Achiev04")
@@ -2736,8 +2736,8 @@ label eveningep2:
                             zoom 0.5
                             rotate_animation
 
-                        "You have received an achievement!{p}\"No Way!\"."
-                        "Number of achievements earned in this chapter [achValid2]/4"
+                        "Has recibido un logro!{p}\"De ninguna manera!\"."
+                        "Número de logros obtenidos en este capítulo [achValid2]/4"
                         hide Achiev4
                         $ persistent.achievement4 = True
                 show image "images/Stats/Dom[domination].png" at statleft
@@ -2755,10 +2755,10 @@ label eveningep2:
 
     else:
         menu:
-            "{color=#FFD1DF}{i}*Turn off the TV*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Apagar el televisor*{/i}{/color}":
                 jump wylacztelewizor
 
-            "{color=#FFD1DF}{i}*Leave the TV on*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Deja el televisor encendido*{/i}{/color}":
                 if not easymode:
                     $ achValid2 += 1
                     $ achievement.grant("Achiev04")
@@ -2768,8 +2768,8 @@ label eveningep2:
                             zoom 0.5
                             rotate_animation
 
-                        "You have received an achievement!{p}\"No Way!\"."
-                        "Number of achievements earned in this chapter [achValid2]/4"
+                        "¡Has recibido un logro!{p}\"¡De ninguna manera!\"."
+                        "Número de logros obtenidos en este capítulo [achValid2]/4"
                         hide Achiev4
                         $ persistent.achievement4 = True
                 show image "images/Stats/Dom[domination].png" at statleft
@@ -2790,22 +2790,22 @@ label wlaczony:
 
     scene 20001
 
-    e "Turn it off? I don't think so.{p}I'm watching my show and you're interrupting me..."
+    e "Apagarlo?No me parece.{p}Estoy viendo mi programa y me estás interrumpiendo..."
 
-    m "This is serious, [player_name].{p}I think what we have to discuss is more important than some stupid show."
+    m "Esto es serio, [player_name].{p}Creo que lo que tenemos que discutir es más importante que algún programa estúpido.."
 
     scene 20001b
 
-    m "Can you turn it off?{p}Please"
+    m "¿Puedes apagarlo?{p}Por favor"
 
     scene 20001a
-    e "{i}Sigh{/i}...{p}All right."
+    e "{i}Suspiro{/i}...{p}Está bien."
     jump niechcibedzie
 
 label wylacztelewizor:
 
     scene 20001b
-    e "Sure"
+    e "Seguro"
 
 label niechcibedzie:
 
@@ -2815,82 +2815,82 @@ label niechcibedzie:
 
     scene 20001c
 
-    e "Done"
+    e "Hecho"
 
-    e "So... what's so important that you needed to talk to me so suddenly?"
+    e "Entonces ... ¿Qué es tan importante que necesitaras hablar conmigo tan repentinamente?"
 
     scene 20002
 
-    m "Don't pretend you don't know what I'm talking about, [player_name]."
+    m "No finjas que no sabes de lo que estoy hablando, [player_name]."
 
     scene 20003
 
-    m "What you did to me...{p}...was horrific."
+    m "Lo que me hiciste...{p}...fue horrible."
 
-    m "And I'm certainly not going to let it just go by without resolving it."
+    m "Y ciertamente no voy a dejarlo pasar sin resolverlo."
 
     scene 20004 with dissolve
 
-    e "What are you going to do?"
+    e "¿Qué vas a hacer?"
 
     scene 20005 with dissolve
 
-    m "I'm going to tell your father everything. A full confession."
+    m "Voy a decirle a tu padre todo.Una confesión completa."
 
-    m "And then I'll tell him what you did... how you found out, and then used it to blackmail me, just to fulfil your sick fantasies."
+    m "Y luego le diré lo que hiciste ... cómo te enteraste, y luego lo usaste para chantajearme, solo para cumplir tus fantasías enfermas."
 
     scene 20006 with dissolve
 
-    e "Ha!{p}Ha-ha-ha!"
+    e "Ja!{p}Ha-ha-ha!"
 
-    e "[woman_name], you can't seriously expect me to believe that you're actually going to tell Dad all about how you cheat on him every time he's away."
+    e "[woman_name], En serio, no puedes esperar que creas que realmente te vas a decirle a papá todo sobre cómo lo engañas cada vez que está fuera."
 
     scene 20007a with dissolve
 
-    e "There's no way you'd throw away everything you've got from him in this marriage... just so he can punish me?"
+    e "No hay forma de que tire todo lo que tienes de él en este matrimonio ... ¿solo para que pueda castigarme?"
 
     scene 20007b with dissolve
 
-    e "Was that really your plan? Don't you know he loves me? He'll probably reward me for discovering that you're a cheating, lying whore!"
+    e "¿Ese era realmente tu plan?¿No sabes que me ama?¡Probablemente me recompensará por descubrir que eres una puta engaño y mentirosa!"
 
-    e "And why would he even believe your story about what I supposedly did to you? You have to admit, it sounds crazy..."
+    e "¿Y por qué él creería tu historia sobre lo que supuestamente te hice?Tienes que admitir que suena loco ...."
 
-    e "... Why would any normal, self-respecting woman would allow herself to be treated like that? To go along with a request for sexual favors from her [player_role]? Just to conceal her slutty behavior?"
+    e "... ¿Por qué alguna mujer normal y respetuosa se permitiría ser tratada así?Para ir con una solicitud de favores sexuales de ella[player_role]? ¿Solo para ocultar su comportamiento de Slutty?"
 
-    e "Seriously, there's no way he'd believe you. Anyway, you've got no proof... {p}But I do..."
+    e "En serio, no hay forma de que te crea.De todos modos, no tienes pruebas ... {pPero yo sí...."
 
-    e "I guess you'll have to try a little harder."
+    e "Supongo que tendrás que probar un poco más."
 
     scene 20003
 
-    m "We live together."
+    m "Nosotras vivimos juntas."
 
     if chokeep1kick == True:
-        m "I don't even want to know what you had planned if I hadn't run away from the lecture hall"
+        m "Ni siquiera quiero saber qué habías planeado si no hubiera huido de la sala de conferencias"
 
     if episode1checkfinal == True:
-        m "You can't expect me to just accept that's way it's going to be? You blackmailing me to do those abhorrent things with you?"
+        m "¿No puedes esperar que acepte así que será?¿Me chantajas para hacer esas cosas aborrecibles contigo?"
 
-        m "I'm your [woman_role], it's not right. It's illegal, or at least immoral."
+        m "Soy tu [woman_role], No está bien.Es ilegal, o al menos inmoral."
 
-        m "And it's not just that it's not allowed...{p}It's disgusting too."
+        m "Y no es solo que no esté permitido ....{p}También es asqueroso."
 
 
     scene 20007a
 
-    e "So you think I can't be charmed by your beauty?"
+    e "¿Entonces crees que no puedo ser encantado por tu belleza?"
 
     scene 20003
 
-    m "It's simply wrong. We can't have that kind of interaction."
+    m "Simplemente está mal.No podemos tener ese tipo de interacción."
 
-    m "And you're acting like it's all some kind of joke."
+    m "Y estás actuando como si todo fuera algún tipo de broma."
 
-    m "It's not! What you did is a very serious thing. A crime, even."
+    m "¡Que no es!Lo que hiciste es algo muy serio.Un crimen, incluso."
 
     scene 20005 with dissolve
 
-    m "Whatever I did while your father was away... what you did to me was even worse."
+    m "Lo que sea que hice mientras tu padre estaba fuera ... lo que me hiciste fue aún peor."
 
     scene 20007b with dissolve
 
@@ -2898,20 +2898,20 @@ label niechcibedzie:
 
     scene 20007a with dissolve
 
-    e "Maybe you're right."
+    e "Quizás tengas razón."
 
-    e "But maybe not."
+    e "Pero tal vez no."
 
-    e "I think cheating behind someone's back is worse."
+    e "Creo que hacer trampa a la espalda de alguien es peor."
 
-    e "And I know it's not the first time."
+    e "Y sé que no es la primera vez."
 
 
     menu:
-        "Let's talk about this. Come, sit next to me.":
+        "Hablemos de esto.Ven, siéntate a mi lado.":
             jump usiadz
 
-        "I think you're just a naughty girl.":
+        "Creo que solo eres una chica traviesa.":
             jump naughtygirl
 
 
@@ -2919,21 +2919,21 @@ label naughtygirl:
 
     scene 20005
 
-    m "Don't call me that."
+    m "No me llames así."
 
-    m "I'm still your [woman_role].{p}Not your classmate."
+    m "Sigo siendo tu [woman_role].{p}No tu compañera de clase."
 
     scene 20007a
 
-    e "Geez, it's okay.{p}Calm down."
+    e "Cariño, está bien.{Cálmatewn."
 
-    e "Just sit down, you don't have to stand there, looming over me for the whole conversation."
+    e "Solo siéntate, no tienes que pararte allí, avanzando sobre mí para toda la conversación."
 
     scene 20003
 
-    m "Okay. But don't think I'm going to let this go. I'll trust you, for now. Just keep your hands to yourself."
+    m "Bueno.Pero no pienses que voy a dejar esto.Confiaré en ti por ahora.Solo mantén tus manos para ti mismo."
 
-    e "Of course not... just sit down. Please..."
+    e "Por supuesto que no ... solo siéntate.Por favor..."
 
     jump oksit
 
@@ -2950,12 +2950,12 @@ label usiadz:
 
     scene 20009a with dissolve
 
-    e "Let's talk about it."
+    e "Hablemos de ello."
 
     scene 20007a
 
 
-    e "I'm not gonna bite you."
+    e "No te voy a morder."
 
     if domination > 4:
         jump oksit
@@ -2971,7 +2971,7 @@ label oksit:
 
     scene 20003 with dissolve
 
-    m "I'll sit. I'm going to trust you. Don't you dare do anything funny, though."
+    m "Me sentaré.Voy a confiar en ti.Sin embargo, no te atrevas a hacer nada divertido."
 
     scene 20002 with dissolve
 
@@ -2987,24 +2987,24 @@ label oksit:
 
     scene 20011 with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Is that...?{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Es eso...?{/i}"
 
     scene 20011b with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Oh yeah{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Oh sí{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} It definitely smells like alcohol{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Definitivamente huele a alcohol{/i}"
 
     scene 20011bb with dissolve
 
-    m "Look. What you did was wrong... very wrong."
-    m "But... I don't want to ruin my relationship with your father..."
-    m "And... if we're going to keep living together, I don't want to have to always be avoiding you."
+    m "Mirar.Lo que hiciste fue mal ... muy mal."
+    m "Pero ... no quiero arruinar mi relación con tu padre..."
+    m "Y ... si vamos a seguir viviendo juntos, no quiero tener que evitar siempre."
 
     if easymode:
         menu:
 
-            "{color=#FFD1DF}{i}*Take a look at her body.*{/i} \n{color=#3d85c6} +1 Lust Point":
+            "{color=#FFD1DF}{i}*Echa un vistazo a su cuerpo.*{/i} \n{color=#3d85c6} +1 Lust Point":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3017,14 +3017,14 @@ label oksit:
                 hide image "images/Stats/Lust[lust].png"
                 jump przyjrzyjsiecialu
 
-            "{color=#FFD1DF}{i}*Look her straight in the eye.*{/i} \n{color=#3d85c6} +1 Love point (Important in later episodes)":
+            "{color=#FFD1DF}{i}*Mírala directamente a los ojos.*{/i} \n{color=#3d85c6} +1 Love point (Important in later episodes)":
                 $ niclovebonusfactor += 1
                 jump patrzjejwoczy
 
     else:
         menu:
 
-            "{color=#FFD1DF}{i}*Take a look at her body.*{/i}":
+            "{color=#FFD1DF}{i}*Echa un vistazo a su cuerpo.*{/i}":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3037,30 +3037,30 @@ label oksit:
                 hide image "images/Stats/Lust[lust].png"
                 jump przyjrzyjsiecialu
 
-            "{color=#FFD1DF}{i}*Look her straight in the eye.*{/i}":
+            "{color=#FFD1DF}{i}*Mírala directamente a los ojos.*{/i}":
                 $ niclovebonusfactor += 1
                 jump patrzjejwoczy
 
 
 label przyjrzyjsiecialu:
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Damn{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Maldición{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} She looks so good{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Ella se ve tan bien{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I'm incredibly lucky that my [woman_role] is such a babe{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Soy increíblemente afortunada de que mi [woman_role] es un bebé{/i}"
 
     scene 20011c
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Slim like a teenager{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i}Delgada como una adolescente{/i}"
 
     scene 20011d
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} And those legs...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Y esas piernas...{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I've always loved watching her when she wears shorts{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Siempre me ha encantado verla cuando usa pantalones cortos{/i}"
 
-    "{color=#A8E4A0}{i}{size=-3}She noticed that you were looking at her body{/size}{/i}{/color}"
+    "{color=#A8E4A0}{i}{size=-3}Ella notó que estabas mirando su cuerpo{/size}{/i}{/color}"
 
 label patrzjejwoczy:
 
@@ -3070,18 +3070,18 @@ label patrzjejwoczy:
 
     scene 20011a with dissolve
 
-    e "I don't want that either."
+    e "Yo tampoco quiero."
 
-    e "I really like our new relationship."
+    e "Realmente me gusta nuestra nueva relación."
 
     scene 20012b with dissolve
 
-    m "Listen to me.{p}We don't have a “relationship”."
-    m "Half of me still can't believe it... like I'm in shock..."
+    m "Escucharme.{p}Nosotras no tenemos una "relación”."
+    m "La mitad de mí todavía no puedo creerlo ... como si estuviera en estado de shock..."
 
     scene 20013 with dissolve
 
-    m "After what happened at school."
+    m "Después de lo que pasó en la escuela."
 
     scene 20013a with dissolve
 
@@ -3089,17 +3089,17 @@ label patrzjejwoczy:
 
     scene 20013 with dissolve
 
-    m "{color=#ffa500}{i}*deep breath*{/i}{/color}{p}I know you were hurt by with what you saw."
+    m "{color=#ffa500}{i}*respiración profunda*{/i}{/color}{p}Sé que te lastimaron con lo que viste."
 
     scene 20013a with dissolve
 
-    m "But I'm a grown woman."
+    m "Pero soy una mujer adulta."
 
-    m "And I have the right to be happy too."
+    m "Y tengo derecho a ser feliz también."
 
     scene 20014atalk with dissolve
 
-    m "And as a woman..."
+    m "Y como mujer..."
 
     scene 20014asilent with dissolve
 
@@ -3107,21 +3107,21 @@ label patrzjejwoczy:
 
     scene 20014atalk2 with dissolve
 
-    m "I have my needs."
+    m "Tengo mis necesidades."
 
     scene 20014atalk with dissolve
 
-    m "And your father prefers gambling and drinking more than spending time with his wife.{p}More than... taking care of me."
+    m "Y tu padre prefiere el juego y beber más que pasar tiempo con su esposa.{p}Más que ... cuidarme."
 
-    e "Maybe what you're saying is reasonable.{p}I can see you might feel neglected."
+    e "Quizás lo que estás diciendo es razonable.{p}Veo que podrías sentirte descuidada."
 
-    e "But that still doesn't give you the right to cheat on him with some random guys!"
+    e "¡Pero eso todavía no te da el derecho de engañarlo con algunos tipos al azar!"
 
-    e "If you have “needs”..."
+    e "Si tienes “needs”..."
 
     if easymode:
         menu:
-            "All you had to do was ask me.\n{color=#3d85c6} +1 Lust Point":
+            "Todo lo que tenías que hacer era preguntarme.\n{color=#3d85c6} +1 Lust Point":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3134,8 +3134,8 @@ label patrzjejwoczy:
                 hide image "images/Stats/Lust[lust].png"
                 jump askme
 
-            "You should have tempted him.\n{color=#3d85c6} +1 Dom Point":
-                e "Tempted him, just the same way you tempt me every day, wearing those tight shorts and loose blouses."
+            "Deberías haberlo tentado.\n{color=#3d85c6} +1 Dom Point":
+                e "Tentarlo, de la misma manera que me tientas todos los días, usando esos pantalones cortos y blusas sueltas."
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3150,7 +3150,7 @@ label patrzjejwoczy:
 
     else:
         menu:
-            "All you had to do was ask me.":
+            "Todo lo que tenías que hacer era preguntarme.":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3163,8 +3163,8 @@ label patrzjejwoczy:
                 hide image "images/Stats/Lust[lust].png"
                 jump askme
 
-            "You should have tempted him.":
-                e "Tempted him, just the same way you tempt me every day, wearing those tight shorts and loose blouses."
+            "Deberías haberlo tentado.":
+                e "Lo tentó, de la misma manera que me tientas todos los días, vistiendo esos pantalones cortos apretados y blusas sueltas."
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3180,19 +3180,19 @@ label patrzjejwoczy:
 label askme:
 
     scene 20014ashock with dissolve
-    m "What?!{p}You?!"
+    m "Qué?!{p}Tú?!"
 
-    m "You are my [player_role]!{p}The closest person to me..."
+    m "Tú eres mi [player_role]!{p}La persona más cercana a mí..."
 
     scene 20014atalk2 with dissolve
 
-    m "What was I supposed to ask you for?"
+    m "¿Qué se suponía que debía pedirte??"
 
     scene 20014asilent with dissolve
 
     if easymode:
         menu:
-            "I know how to deal with a horny woman like you. \n{color=#3d85c6} +1 Dom Point":
+            "Sé cómo lidiar con una mujer cachonda como tú. \n{color=#3d85c6} +1 Dom Point":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3205,7 +3205,7 @@ label askme:
                 hide image "images/Stats/Lust[lust].png"
                 jump everyday
 
-            "Imagine.. if you weren't my [woman_role]... Would you fuck me every day? \n{color=#3d85c6} +1 Lust Point":
+            "Imagina ... si no fueras mi [woman_role]... ¿Me follarías todos los días? \n{color=#3d85c6} +1 Lust Point":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3218,12 +3218,12 @@ label askme:
                 hide image "images/Stats/Lust[lust].png"
                 jump everyday
 
-            "As someone close to you, you can trust me... I'm sure I could have helped.\n{color=#3d85c6} +1 Love point (Important in later episodes)":
+            "Como alguien cercano a ti, puedes confiar en mí ... estoy seguro de que podría haber ayudado.\n{color=#3d85c6} +1 Love point (Important in later episodes)":
                 $ niclovebonusfactor += 1
                 jump closestperson
     else:
         menu:
-            "I know how to deal with a horny woman like you.":
+            "Sé cómo lidiar con una mujer cachonda como tú.":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3236,7 +3236,7 @@ label askme:
                 hide image "images/Stats/Lust[lust].png"
                 jump everyday
 
-            "Imagine.. if you weren't my [woman_role]... Would you fuck me every day?":
+            "Imagina ... si no fueras mi [woman_role]... ¿Me follarías todos los días?":
                 show image "images/Stats/Dom[domination].png" at statleft
                 show image "images/Stats/Lust[lust].png" at statright
                 pause 1
@@ -3249,7 +3249,7 @@ label askme:
                 hide image "images/Stats/Lust[lust].png"
                 jump everyday
 
-            "As someone close to you, you can trust me... I'm sure I could have helped.":
+            "Como alguien cercano a ti, puedes confiar en mí ... Estoy seguro de que podría haber ayudado.":
                 $ niclovebonusfactor += 1
                 jump closestperson
 
@@ -3258,75 +3258,75 @@ label everyday:
 
     scene 20014ashock with dissolve
 
-    m "Whaaat....!!?!!"
+    m "whaaat....!!?!!"
 
-    m "What the hell is wrong with you?!"
+    m "¿Qué demonios te pasa?!"
 
     scene 20014atalk2 with dissolve
 
-    m "You're still a kid."
+    m "Sigues siendo una niña."
 
-    m "And this whole conversation is wrong and we should just forget about what happened."
+    m "Y toda esta conversación es incorrecta y debemos olvidarnos de lo que sucedió."
     jump closestperson
 
 label closestperson:
 
     scene 20013a with dissolve
 
-    m "I know it is my fault."
+    m "Sé que es mi culpa."
 
-    m "I know that what you saw made you were angry with me...{p}and that's why you made me..."
-
-    scene 20013 with dissolve
-
-    m "...do those things."
+    m "Sé que lo que viste te hizo estar enojado conmigo..{p}Y por eso me hiciste..."
 
     scene 20013 with dissolve
 
-    m "But...{p}I forgive you."
+    m "...hacer esas cosas."
+
+    scene 20013 with dissolve
+
+    m "Pero...{p}te perdono."
 
     e "..."
 
-    m "We can pretend nothing happened, and go back to how things were before...{p}live normally together."
-    m "And I promise I'll do the right thing by your father from now on...{p}I won't hurt you again."
+    m "Podemos fingir que no pasó nada y volver a cómo estaban antes ....{p}viven normalmente juntos."
+    m "Y prometo que haré lo correcto de tu padre de ahora en adelante ....{p}No te lastimaré de nuevo."
 
     scene 20014alisten with dissolve
 
     if easymode:
         menu:
-            "But I don't want to pretend nothing happened.\n{color=#3d85c6} +1 Love point (Important in later episodes)":
+            "Pero no quiero fingir que no pasó nada.\n{color=#3d85c6} +1 Love point (Importante en episodios posteriores)":
                 $ niclovebonusfactor += 1
                 jump beautiful
 
-            "You gave me a handjob. I want more. {size=-8}(Req. Episode 1 Final Scene){/size}" if nicep1dom > 7:
+            "Me diste una paja.Quiero más. {size=-8}(Req. Episode 1 Final Scene){/size}" if nicep1dom > 7:
                 jump evil
 
     else:
         menu:
-            "But I don't want to pretend nothing happened.":
+            "Pero no quiero fingir que no pasó nada.":
                 $ niclovebonusfactor += 1
                 jump beautiful
 
-            "You gave me a handjob. I want more. {size=-8}(Req. Episode 1 Final Scene){/size}" if nicep1dom > 7:
+            "Me diste una paja.Quiero más. {size=-8}(Req. Episode 1 Final Scene){/size}" if nicep1dom > 7:
                 jump evil
 
 label beautiful:
 
     scene 20014alook with dissolve
 
-    e "You're the prettiest woman I know."
+    e "Eres la mujer más bonita que conozco."
 
-    e "Even just sitting here right now, next to you... if I am honest, I can't deny that you are making me extremely horny."
+    e "Incluso solo sentado aquí ahora mismo, a tu lado ... si soy sincero, no puedo negar que me estás poniendo extremadamente cachondo."
 
     scene 20014atalk with dissolve
 
-    m "Don't say things like that to me, [player_name]."
+    m "No me digas cosas así, [player_name]."
 
-    m "You're so much younger than me. You should look for a sexual partner who is closer to your own age."
+    m "Eres mucho más joven que yo. Debes buscar una pareja sexual que esté más cerca de tu propia edad.."
 
     scene 20014ashock with dissolve
 
-    e "I prefer a partner with experience."
+    e "Prefiero un socio con experiencia."
 
     jump talkbeforehj
 
@@ -3334,16 +3334,16 @@ label evil:
 
     scene 20014alook with dissolve
 
-    e "Actually, [woman_name], I like it that you're so addicted to sex."
+    e "De hecho, [woman_name], Me gusta que seas tan adicta al sexo."
 
     scene 20014atalk with dissolve
 
-    e "Cause I'm the same...{p}I think about it all the time...{p}about you."
-    e "Maybe, together, we can find a way to control our desires...{p}and keep from making any more mistakes with outsiders."
+    e "Porque soy la misma...{p}Pienso todo el tiempo...{p}acerca de ti."
+    e "Tal vez, juntos, podemos encontrar una manera de controlar nuestros deseos..{p}y evitar cometer más errores con los extraños."
 
     scene 20014alook with dissolve
 
-    e "We could be good for each other."
+    e "Podríamos ser buenos el uno para el otro."
 
     jump talkbeforehj
 
@@ -3351,9 +3351,9 @@ label talkbeforehj:
 
     scene 20014atalk2 with dissolve
 
-    m "Can you stop?"
+    m "¿Puedes parar?"
 
-    m "Don't you understand that everything you saying is... wrong?"
+    m "¿No entiendes que todo lo que dices es ... incorrecto?"
 
     scene 20014asilent with dissolve
 
@@ -3361,19 +3361,19 @@ label talkbeforehj:
 
     scene 20013 with dissolve
 
-    m "What happened at the university was wrong! I should never have allowed it to escalate like that...{p}but I was in shock, I think."
+    m "¡Lo que sucedió en la universidad estaba mal!Nunca debería haber permitido que se intensifique así..{p}Pero estaba en estado de shock, creo."
 
     scene 20013a with dissolve
 
-    m "Everything happened so fast."
+    m "Todo pasó tan rápido."
 
     scene 20014alook with dissolve
 
-    e "No! It wasn't “wrong”... it was wonderful."
+    e "¡No!No fue “wrong”...Fue maravilloso."
 
-    e "It wasn't until that moment that I realized how much I care about you."
+    e "No fue hasta ese momento que me di cuenta de cuánto me preocupo por ti."
 
-    e "And how much I want to feel close to you like that again."
+    e "Y cuánto quiero sentirme cerca de ti así de nuevo."
 
     "{color=#ffa500}{i}*clothes rustling*"
 
@@ -3386,9 +3386,9 @@ label pantsdown:
 
     scene 20015 with dissolve
 
-    m "[player_name]! What are you doing?!"
+    m "[player_name]! ¿Qué estás haciendo?!"
 
-    m "Stop this! Put that thing away!"
+    m "¡Detente esto!¡Guarda esa cosa!"
 
     scene 20021a with dissolve
 
@@ -3396,71 +3396,71 @@ label pantsdown:
 
     scene 20021a with dissolve
 
-    e "I'm tired of just talking."
+    e "Estoy cansada de solo hablar."
 
     scene 20022b with dissolve
 
-    e "You know what?"
+    e "¿Sabes que?"
 
     scene 20022b with dissolve
 
-    e "I want more."
+    e "Quiero más."
 
     scene 20023 with dissolve
     if nicep1dom > 7:
-        e "You did it for me once, now you can do it again."
+        e "Lo hiciste por mí una vez, ahora puedes hacerlo de nuevo."
     else:
         jump nohandj2
 label nohandj2:
     scene 20023a with dissolve
 
-    m "Don't do this. Please, put your pants back on again."
+    m "No hagas esto.Por favor, vuelva a colocar los pantalones."
 
     scene 20015 with dissolve
 
-    m "I... I don't want to do anything like that... with you."
+    m "Yo ... No quiero hacer nada por el estilo ... contigo."
 
     scene 20015a with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She keeps staring at your penis{/i}"
+    "{color=#A8E4A0}{i}{size=-3}Ella sigue mirando tu pene{/i}"
 
     scene 20015 with dissolve
 
-    m "I only wanted to talk..."
+    m "Solo quería hablar ...."
 
     scene 20015a with dissolve
 
-    e "We can talk some more... {p}When you're done with me."
+    e "Nosotras podemos hablar un poco más ... {p}Cuando hayas terminado conmigo."
 
-    e "Why don't you come closer."
+    e "¿Por qué no te acercas más?."
 
     scene 20023 with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} The alcohol must be affecting her, otherwise she certainly would have run away by now..."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} El alcohol debe estar afectándola, de lo contrario ella ciertamente se habría escapado..."
 
-    e "Come on, it's nothing."
+    e "Vamos, no es nada."
 
-    e "There's no one else here... no one will know about it..."
+    e "No hay nadie más aquí ... nadie lo sabrá ...."
 
-    e "This will be the last time, and then I'll delete the photos."
+    e "Esta será la última vez, y luego eliminaré las fotos."
 
     scene 20015a with dissolve
 
-    e "Come on. I promise."
+    e "Vamos.Prometo."
 
     scene 20015 with dissolve
 
     m "..."
 
-    m "Delete the pictures first."
+    m "Elimine las imágenes primero."
 
     scene 20015a with dissolve
 
-    e "You think I'm stupid?"
+    e "¿Crees que soy estúpida?"
 
-    e "I know how that works. Once they're gone, you'll just leave me here, frustrated."
+    e "Sé cómo funciona eso.Una vez que se hayan ido, me dejarás aquí, frustrado."
 
-    e "Come on, hurry up... or I might start to have other ideas on what to do with the pics."
+    e "Vamos, date prisa ... o podría comenzar a tener otras ideas sobre qué hacer con las fotos."
 
     scene 20023 with dissolve
 
@@ -3468,35 +3468,35 @@ label nohandj2:
 
     scene 20023a with dissolve
 
-    m "*sigh* I just have to trust you. To do the right thing."
+    m "*sigh* Solo tengo que confiar en ti.Para hacer lo correcto."
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I think she said that earlier today."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Creo que ella dijo eso hoy."
 
     scene 20023bb with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} She's actually gonna do it... she is definitely drunk."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} En realidad lo hará ... definitivamente está borracha."
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I'm super lucky."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i}Soy super afortunada"
 
     scene 20023bbb with dissolve
 
-    e "Come on [woman_role]"
+    e "Vamos [woman_role]"
 
     scene 20023b with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She stopped, frozen, just staring blankly at your dick.{/i}"
+    "{color=#A8E4A0}{i}{size=-3}Ella se detuvo, congelada, solo miraba fijamente tu polla.{/i}"
 
     scene 20023bbbb with dissolve
 
-    m "I don't...{p}want...{p}to do it."
+    m "No...{p}want...{p}para hacerlo."
 
     menu:
-        "Please, just help me out...":
+        "Por favor, solo ayúdame ...":
             scene 20023bbbbb with dissolve
-            m "Okay...{p}But please, close your eyes... and don't say anything."
+            m "Bueno...{p}Pero por favor, cierra los ojos ... y no digas nada."
             jump s2h1on
 
-        "C'mon, just fucking take it in your hand.":
+        "Vamos, solo tómalo en tu mano.":
             scene 20023bbbbb with dissolve
             m "*gasp*!"
             jump s2h1on
@@ -3506,33 +3506,33 @@ label nohandj2:
 label s2h1on:
     show s2h1 with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} She's actually doing it...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Ella realmente lo está haciendo ....{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I thought it would be harder to convince her...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Pensé que sería más difícil convencerla...{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Gotta stay in control... can't fuck it up now.{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i}Tengo que permanecer en control ... no puedo joderlo ahora.{/i}"
 
 label menufirsthj:
 
     pause
-    show screen hint("I should keep pushing...\nShe might break.")
+    show screen hint("Debería seguir presionando...\nElla podría romper.")
     if easymode:
         menu:
-            "You're so good at this... faster, please \n{color=#3d85c6} Do it 3x for points":
+            "Eres tan bueno en esto ... más rápido, por favor \n{color=#3d85c6} Hazlo 3x por puntos":
                 hide screen hint
                 $ everydayhjq += 1
                 jump everydayhj
 
-            "{color=#FFD1DF}{i}*Force her to suck you*{/i}{/color} \n{color=#3d85c6} End path":
+            "{color=#FFD1DF}{i}*Obligarla a chuparte*{/i}{/color} \n{color=#3d85c6} Camino final":
                 hide screen hint
                 jump beforeforceblow
 
-            "Admit it, you like young dicks, [woman_role]\n{color=#3d85c6} Do it 3x for points":
+            "Admítelo, te gustan las pollas jóvenes, [woman_role]\n{color=#3d85c6} Hazlo 3x por puntos":
                 hide screen hint
                 $ hjquestion +=1
                 jump sheverygood
 
-            "{color=#FFD1DF}{i}*Touch her pussy*{/i}{/color} {size=-8}(Req. 2 Lust and 1 Domination)":
+            "{color=#FFD1DF}{i}*Toca su coño*{/i}{/color} {size=-8}(Req. 2 Lust and 1 Domination)":
                 hide screen hint
                 if lust > 5 and domination > 4:
                     jump touchpussy
@@ -3540,21 +3540,21 @@ label menufirsthj:
                     jump beforeforceblow
     else:
         menu:
-            "You're so good at this... faster, please":
+            "Eres tan bueno en esto ... más rápido, por favor":
                 hide screen hint
                 $ everydayhjq += 1
                 jump everydayhj
 
-            "{color=#FFD1DF}{i}*Force her to suck you*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Obligarla a chuparte*{/i}{/color}":
                 hide screen hint
                 jump beforeforceblow
 
-            "Admit it, you like young dicks, [woman_role]":
+            "Admítelo, te gustan las pollas jóvenes, [woman_role]":
                 hide screen hint
                 $ hjquestion +=1
                 jump sheverygood
 
-            "{color=#FFD1DF}{i}*Touch her pussy*{/i}{/color} {size=-8}(Req. 2 Lust and 1 Domination)":
+            "{color=#FFD1DF}{i}*Toca su coño*{/i}{/color} {size=-8}(Req. 2 Lust and 1 Domination)":
                 hide screen hint
                 if lust > 5 and domination > 4:
                     jump touchpussy
@@ -3565,13 +3565,13 @@ label beforeforceblow:
 
     $ beforeforce +=1
     if beforeforce == 1:
-        "{color=#A8E4A0}{i}{size=-3} She made a strange panic sound.{/i}"
-        e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Hmm, I should be careful...{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella hizo un extraño sonido de pánico.{/i}"
+        e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Hmm, debería tener cuidado...{/i}"
         jump menufirsthj
 
     elif beforeforce == 2:
-        "{color=#A8E4A0}{i}{size=-3} She starts to get irritated.{/i}"
-        e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} I should try something else or I'll scare her.{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella comienza a irritar.{/i}"
+        e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Debería probar algo más o la asustaré.{/i}"
         jump menufirsthj
 
     elif beforeforce == 3:
@@ -3580,18 +3580,18 @@ label beforeforceblow:
 label everydayhj:
 
     if everydayhjq == 1:
-        "{color=#A8E4A0}{i}{size=-3} She didn't answer, distracted by what she was doing.{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella no respondió, distraída por lo que estaba haciendo.{/i}"
         jump menufirsthj
 
     if everydayhjq == 2:
         scene 20024
-        m "Be quiet....{p}I told you to not say anything."
+        m "Tranquilizarse....{p}Te dije que no dijeras nada."
         show s2h1
         jump menufirsthj
 
     if everydayhjq == 3:
         show s2h2 with dissolve
-        "{color=#A8E4A0}{i}{size=-3} She lowered her head slightly and didn't answer...{p}...but she started working faster with her hand!{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella bajó la cabeza ligeramente y no respondió ...{p}... Pero comenzó a trabajar más rápido con su mano!{/i}"
         show image "images/Stats/Dom[domination].png" at statleft
         show image "images/Stats/Lust[lust].png" at statright
         pause 1
@@ -3615,8 +3615,8 @@ label everydayhj:
                         zoom 0.5
                         rotate_animation
 
-                    "You have received an achievement!{p}\"Score maximum points during a handjob.\""
-                    "Number of achievements earned in this chapter [achValid2]/4"
+                    "¡Has recibido un logro!{p}\"Puntaje de puntos máximos durante una paja.\""
+                    "Número de logros obtenidos en este capítulo [achValid2]/4"
                     hide Achiev5
                     $ persistent.achievement5 = True
             jump menufirsthj
@@ -3624,16 +3624,16 @@ label everydayhj:
             jump menufirsthj
 
     if everydayhjq > 3:
-        "{color=#A8E4A0}{i}{size=-3} She didn't answer, but she kept on trying to please you.{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella no respondió, pero siguió tratando de complacerte.{/i}"
         jump menufirsthj
 
 label sheverygood:
     if hjquestion == 1:
-        m "Just... No.{p}Don't talk to me like that."
+        m "Justo... No.{p}No me hables así."
         jump menufirsthj
 
     if hjquestion == 2:
-        m "{i}*whispering softly*{/i} N... No...."
+        m "{i}*susurrando suavemente*{/i} N... No...."
         show image "images/Stats/Dom[domination].png" at statleft
         show image "images/Stats/Lust[lust].png" at statright
         pause 1
@@ -3657,8 +3657,8 @@ label sheverygood:
                         zoom 0.5
                         rotate_animation
 
-                    "You have received an achievement!{p}\"Score maximum points during a handjob.\""
-                    "Number of achievements earned in this chapter [achValid2]/4"
+                    "¡Has recibido un logro!{p}\"Puntaje de puntos máximos durante una paja.\""
+                    "Número de logros obtenidos en este capítulo [achValid2]/4"
                     hide Achiev5
                     $ persistent.achievement5 = True
 
@@ -3667,7 +3667,7 @@ label sheverygood:
             jump menufirsthj
 
     if hjquestion > 2:
-        "{color=#A8E4A0}{i}{size=-3} She didn't answer, but she kept on working to please you with her hand.{/i}"
+        "{color=#A8E4A0}{i}{size=-3} Ella no respondió, pero siguió trabajando para complacerte con la mano.{/i}"
         jump menufirsthj
 
 label touchpussy:
@@ -3679,43 +3679,43 @@ label touchpussy:
 
     scene 20031x
 
-    m "What...?"
+    m "Qué...?"
 
     scene 20032x with dissolve
 
-    m "Hey... stop..."
+    m "Oye ... pare..."
 
     show s2touchfirst with dissolve
 
     m "No... ahhh!"
 
-    m "...You mustn't..."
+    m "... no debes ...."
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Oh god... she's already wet...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Oh Dios ... ella ya está mojada...{/i}"
 
     pause
 
     show hjfingerv1 with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3} She moans softly{/i}"
+    "{color=#A8E4A0}{i}{size=-3}Ella gime suavemente{/i}"
 
-    m "You can't..."
+    m "YNo puedes..."
 
-    "{color=#A8E4A0}{i}{size=-3} Her hips move involuntarily, rubbing her pussy against your fingers."
+    "{color=#A8E4A0}{i}{size=-3} Sus caderas se mueven involuntariamente, frotando su coño contra tus dedos."
 
     m "{color=#ffa500}{i}*Moans*"
 
-    e "Oh yeah... that's so good..."
+    e "Oh sí ... eso es tan bueno ...."
 
     m "..."
 
-    e "Do it faster, [woman_role]..."
+    e "Hazlo más rápido [woman_role]..."
 
     show hjfingerv2 with dissolve
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} She's doing what I say now...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Ella está haciendo lo que digo ahora ....{/i}"
 
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Seeing how she's clearly drunk...maybe I'll try taking things further...{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Ver cómo está claramente borracha ... tal vez intentaré llevar las cosas más allá...{/i}"
 
     scene s20035 with dissolve
 
@@ -3723,14 +3723,14 @@ label touchpussy:
 
     scene s20036 with dissolve
 
-    e "Suck it!"
+    e "Chupar!"
 
     show s2bj
     $ renpy.pause(3, hard=True)
 
     scene s20035 with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3} She stopped immediately when she realized what happened"
+    "{color=#A8E4A0}{i}{size=-3} Se detuvo de inmediato cuando se dio cuenta de lo que pasó"
     $ renpy.end_replay()
 
 label forceblow:
@@ -3757,30 +3757,30 @@ label forceblow:
     $ renpy.pause(0.2, hard=True)
     scene 20050 with dissolve
 
-    m "What the fuck are you doing?!"
+    m "¿Qué diablos estás haciendo?!"
 
     scene 20051 with dissolve
 
-    m "I'm not some slut that you can insult and mess around... and I'm not doing this!"
+    m "No soy una puta que puedas insultar y perder el tiempo ... ¡y no estoy haciendo esto!"
 
     scene 20052 with dissolve
 
-    m "What you just tried to do is called rape!"
+    m "¡Lo que acabas de intentar hacer se llama violación!"
 
     scene 20053 with dissolve
 
-    m "I don't care where you go...{p}But tomorrow you have to get out of this house."
+    m "No me importa a dónde vayas ...{p}Pero mañana tienes que salir de esta casa."
 
     scene 20054 with dissolve
 
     if easymode:
         menu:
-            "Let her go \n{color=#3d85c6} +1 Love point but no scene (Important in later episodes)":
+            "Déjala ir \n{color=#3d85c6} +1 Punto de amor pero sin escena (importante en episodios posteriores)":
                     $ niclovebonusfactor += 1
                     $ renpy.end_replay()
                     jump endingfail
 
-            "{color=#FFD1DF}{i}*Force her to suck you*{/i}{/color} {size=-8} \n(Req. 3 Lust and 3 Domination) or {color=#00ff00}20\%\ chance{/color}":
+            "{color=#FFD1DF}{i}*Obligarla a chuparte*{/i}{/color} {size=-8} \n(Req.3 lujuria y 3 dominación) or {color=#00ff00}20\%\ chance{/color}":
                     if lust > 6 and domination > 6:
                         jump bjFinal
                     else:
@@ -3792,7 +3792,7 @@ label forceblow:
                     $ renpy.end_replay()
                     jump endingfail
 
-            "{color=#FFD1DF}{i}*Force her to suck you*{/i}{/color} {size=-8} \n(Req. 3 Lust and 3 Domination) or {color=#00ff00}20\%\ chance{/color}":
+            "{color=#FFD1DF}{i}*Obligarla a chuparte*{/i}{/color} {size=-8} \n(Req.3 lujuria y 3 dominación) or {color=#00ff00}20\%\ chance{/color}":
                     if lust > 6 and domination > 6:
                         jump bjFinal
                     else:
@@ -3827,21 +3827,21 @@ label bjFinal:
             show Achiev6 at achievment with easeintop:
                 zoom 0.5
                 rotate_animation
-            "You have received an achievement!{p}\"Who's the boss - You unlocked the final scene.\""
-            "Number of achievements earned in this chapter [achValid2]/4"
+            "Has recibido un logro!{p}\"¿Quién es la jefa? Desbloqueaste la escena final..\""
+            "Número de logros obtenidos en este capítulo [achValid2]/4"
             hide Achiev6
             $ persistent.achievement6 = True
     pause
 
-    "{color=#A8E4A0}{i}{size=-3}Just as she started walking away, you grabbed her wrist."
+    "{color=#A8E4A0}{i}{size=-3}Justo cuando ella comenzó a alejarse, te agarras de la muñeca."
 
     scene 20057 with dissolve
 
-    e "You don't seem to understand..."
+    e "Parece que no entiendes..."
 
     scene 20056a with dissolve
 
-    e "...that you're my slut now."
+    e "... Esa eres mi puta ahora."
 
     scene 20058 with dissolve
     scene 20059 with dissolve
@@ -3851,28 +3851,28 @@ label bjFinal:
     scene 20061 with dissolve
     scene 20062 with dissolve
 
-    e "And do you know what sluts do?"
+    e "¿Y sabes lo que hacen las putas?"
 
     scene 20063 with dissolve
 
-    e "They suck cock."
+    e "Chupan la polla."
 
     show bj68v1 with dissolve
 
-    e "Just like this."
+    e "Solo así."
 
     m "MMM!!!"
 
     show bj68v2 with dissolve
-    e "Oh... that's amazing..."
+    e "Oh ... eso es asombroso ..."
 
-    m "{color=#ffa500}{i}*She makes strange sounds as if she wanted to say something*"
+    m "{color=#ffa500}{i}*Ella hace sonidos extraños como si quisiera decir algo*"
 
-    e "Yeah... that's real good..."
+    e "Sí ... eso es muy bueno..."
 
-    e "But I want you to go faster."
+    e "Pero quiero que vayas más rápido."
 
-    "{color=#A8E4A0}{i}{size=-3}You force her to move faster"
+    "{color=#A8E4A0}{i}{size=-3}La obligas a moverse más rápido"
 
     show bj68v3 with dissolve
 
@@ -3880,39 +3880,39 @@ label bjFinal:
 
     pause
 
-    e "{color=#ffa500}{i}*groans*{/i}{/color} So good."
+    e "{color=#ffa500}{i}*groans*{/i}{/color} Tan buena"
 
-    "{color=#A8E4A0}{i}{size=-3}You pushed her hands away from you and placed your hand on the back of her head"
+    "{color=#A8E4A0}{i}{size=-3}Empujaste sus manos lejos de ti y colocaste tu mano en la parte posterior de su cabeza"
 
     show bj69v4 with dissolve
 
-    e "Your mouth is incredible."
+    e "Tu boca es increíble."
 
     pause
 
-    e "You are the best [woman_role] ever."
+    e "Eres la mejor [woman_role] alguna vez."
 
-    e "If I had known it would be so nice, you would have sucked it for me a long time ago."
+    e "Si hubiera sabido que sería tan bueno, lo habrías chupado por mí hace mucho tiempo."
 
     show bj69v5 with dissolve
 
     pause
 
-    e "I love the feel of your lips and tongue..."
+    e "Me encanta la sensación de tus labios y lengua..."
 
-    e "Yeah... just like that..."
+    e "Sí ... así como eso..."
 
-    e "I knew it... you really are a real slut."
+    e "Lo sabía ... realmente eres una verdadera puta."
 
-    "{color=#A8E4A0}{i}{size=-3}She can't say anything but you hear her trying to moan.{/i}"
+    "{color=#A8E4A0}{i}{size=-3}Ella no puede decir nada, pero la escuchas tratando de gemir.{/i}"
 
     show bj70 with dissolve
 
-    e "{color=#ffa500}{i}*groans*{/i}{/color} You're gonna make me come soon..."
+    e "{color=#ffa500}{i}*gimazos*{/i}{/color} Me vas a hacer venir pronto..."
 
-    e "Right into your mouth!"
+    e "¡Justo en tu boca!"
 
-    "{color=#A8E4A0}{i}{size=-3}She started struggling in panic."
+    "{color=#A8E4A0}{i}{size=-3}Ella comenzó a luchar en pánico."
 
     scene 20070 with vpunch
 
@@ -3930,7 +3930,7 @@ label bjFinal:
 
     scene 20070b with vpunch
     $ maxmccumep7 += 1
-    e "*panting* Take it! Take it all, [woman_role]!!"
+    e "*panting* ¡Tómalo!Tomar todo, [woman_role]!!"
 
     scene 20070c with vpunch
 
@@ -3944,13 +3944,13 @@ label bjFinal:
 
     scene 20070e with dissolve
 
-    e "That was so good..."
+    e "Eso fue tan bueno..."
 
-    "{color=#A8E4A0}{i}{size=-3}She's silent... but you can see she's in total shock."
+    "{color=#A8E4A0}{i}{size=-3}Ella está en silencio ... pero puedes ver que está en shock total."
 
     scene 20071a with dissolve
 
-    m "{color=#ffa500}{i}*Breaths heavily{/i}"
+    m "{color=#ffa500}{i}*Respira mucho{/i}"
 
     scene 20071b with dissolve
 
@@ -4000,44 +4000,44 @@ label bjFinal:
 
     scene 20073f with dissolve
 
-    m "I can't believe...{p}You did this to me..."
+    m "No puedo creer ....{p}Me hiciste esto..."
     $ endingep2full = True
     scene 20073g with dissolve
 
     if easymode:
         menu (screen="rightchoice"):
-            "Gracias, it was a real pleasure to cum in your mouth":
+            "Gracias, Fue un verdadero placer correrse en tu boca":
                 jump nicelips
 
-            "{color=#FFD1DF}{i}*Remain Silent*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Permanecer silenciosa*{/i}{/color}":
                 jump silent
 
-            "I think I just made love to your mouth.":
+            "Creo que acabo de hacer el amor en tu boca.":
                 jump calledface
 
-            "I'm so sorry...{p}I couldn't resist...\n{color=#3d85c6} +1 Love point (Important in later episodes)":
+            "Lo siento mucho...No pude resistirme.st...\n{color=#3d85c6} +1 Love point (Importante en episodios posteriores)":
                 $ niclovebonusfactor += 1
                 jump couldntep2resist
 
     else:
         menu (screen="rightchoice"):
-            "Gracias, it was a real pleasure to cum in your mouth":
+            "Gracias, Fue un verdadero placer correrse en tu boca":
                 jump nicelips
 
-            "{color=#FFD1DF}{i}*Remain Silent*{/i}{/color}":
+            "{color=#FFD1DF}{i}*Permanecer silenciosa*{/i}{/color}":
                 jump silent
 
-            "I think I just made love to your mouth.":
+            "Creo que acabo de hacer el amor en tu boca.":
                 jump calledface
 
-            "I'm so sorry...{p}I couldn't resist...":
+            "Lo siento mucho...{p}No pude resistir...":
                 $ niclovebonusfactor += 1
                 jump couldntep2resist
 
 label couldntep2resist:
 
     scene 20073i with dissolve
-    m "Sorry?..."
+    m "Lo siento?..."
     scene 20073h with dissolve
     m "..."
 
@@ -4053,24 +4053,24 @@ label couldntep2resist:
     pause 0.2
     scene 20088a with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She ran away to her bedroom."
+    "{color=#A8E4A0}{i}{size=-3}Ella se escapó a su habitación."
     jump endings2
 
 label nicelips:
 
     scene 20073i with dissolve
 
-    m "How could you do this... I'm your [woman_role]..."
+    m "¿Cómo podrías hacer esto ... soy tu [woman_role]..."
 
     scene 20073h with dissolve
 
-    e "I don't care about that. You'll have to start getting used to it."
+    e "No me importa eso.Tendrás que empezar a acostumbrarte."
 
-    e "That is, if you don't want my dad to know your secret."
+    e "Es decir, si no quieres que mi papá conozca tu secreto."
 
     scene 20073i with dissolve
 
-    m "You're sick, [player_name]... You're mentally ill!"
+    m "Estas enferma, [player_name]...¡Estás mentalmente enfermo!"
 
     scene 20086 with dissolve
     pause 0.2
@@ -4084,7 +4084,7 @@ label nicelips:
     pause 0.2
     scene 20088a with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She ran away to her bedroom."
+    "{color=#A8E4A0}{i}{size=-3}Ella se escapó a su habitación."
     jump endings2
 
 label silent:
@@ -4096,11 +4096,11 @@ label silent:
     e "..."
 
     scene 20073i with dissolve
-    m "Aren't you going to say something?"
+    m "¿No vas a decir algo??"
     scene 20073h with dissolve
     e "..."
     scene 20073i with dissolve
-    m "Anything?"
+    m "Cualquier cosa?"
 
     scene 20073h with dissolve
 
@@ -4118,7 +4118,7 @@ label silent:
     pause 0.2
     scene 20088a with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She ran away to her bedroom."
+    "{color=#A8E4A0}{i}{size=-3}Ella se escapó a su habitación."
     jump endings2
 
 
@@ -4126,29 +4126,29 @@ label calledface:
 
     scene 20073i with dissolve
 
-    m "No, it wasn't making love.{p}You forced me..."
+    m "No, no estaba haciendo el amor.{p}Me obligaste..."
 
     scene 20073h with dissolve
 
-    e "Naaah, I'd say it's more like... a deal."
+    e "Naaah, diría que es más como ... un trato."
 
-    e "A deal... where I'll keep quiet...{p}and you'll be able to keep pretending you aren't betraying my father."
+    e "Un trato ... donde me mantendré en silencio ...{p}Y podrás seguir fingiendo que no estás traicionando a mi padre."
 
     m "..."
 
-    e "And you'll stay quiet too...{p}but that's mainly because your mouth will be full, hahaha!"
+    e "Y también te quedarás callado ...{p}Pero eso es principalmente porque tu boca estará llena, ¡jaja!"
 
     scene 20073i with dissolve
 
-    m "You are a sick, dirty minded, little boy."
+    m "Eres un niño enfermo, sucio y sucio."
 
     scene 20073h with dissolve
 
-    e "And you're a whore who is an amazing cock sucker.{p}I think we make a great couple."
+    e "Y eres una puta que es un increíble tonto de polla.{p}Creo que hacemos una gran pareja."
 
-    e "And if others can use your mouth, I want to use it too."
+    e "Y si otros pueden usar la boca, yo también quiero usarla."
 
-    e "Because after what you did today, I know how good it feels...{p}and I fucking love it."
+    e "Porque después de lo que hiciste hoy, sé lo bien que se siente...{p}y me encanta."
 
     scene 20086 with dissolve
     pause 0.2
@@ -4162,7 +4162,7 @@ label calledface:
     pause 0.2
     scene 20088a with dissolve
 
-    "{color=#A8E4A0}{i}{size=-3}She ran away to her bedroom."
+    "{color=#A8E4A0}{i}{size=-3}Ella se escapó a su habitación."
     jump endings2
 
 
@@ -4174,17 +4174,17 @@ label endings2:
 
     $ achVall = achValid + achValid2
     if not easymode:
-        "So far you have achieved [achVall] out of 7 available achievements!"
+        "Hasta ahora has logrado [achVall] ¡De los 7 logros disponibles!"
     else:
-        "You did not receive any achievements because you are playing in easy mode."
+        "No recibió ningún logro porque está jugando en modo fácil."
     if itguy >= 1 and speedguy >= 1:
-        "Learned Perks: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#5ed42f}{b}ITGUY{/b}{/color}, {color=#cb2fd6}{b}SPEED{/b}{/color}"
+        "Ventajas aprendidas: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#5ed42f}{b}ITGUY{/b}{/color}, {color=#cb2fd6}{b}SPEED{/b}{/color}"
     elif itguy >= 1 and speedguy == 0:
-        "Learned Perks: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#5ed42f}{b}ITGUY{/b}{/color}"
+        "Ventajas aprendidas: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#5ed42f}{b}ITGUY{/b}{/color}"
     elif itguy == 0 and speedguy >= 1:
-        "Learned Perks: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#cb2fd6}{b}SPEED{/b}{/color}"
+        "Ventajas aprendidas: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}, {color=#cb2fd6}{b}SPEED{/b}{/color}"
     else:
-        "Learned Perks: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}"
+        "Ventajas aprendidas: 1/1{p}{color=#2f63d4}{b}PERCEPTION{/b}{/color}"
 
     jump episode3
 
@@ -4192,16 +4192,16 @@ label endingfail:
 
     scene 20054a with dissolve
 
-    e "Fuck"
-    e "She left"
-    e "I could have played it differently..."
-    e "But tomorrow is also a day"
+    e "Mierda"
+    e "Ella se fue"
+    e "Podría haberlo jugado de manera diferente..."
+    e "Pero mañana también es un día"
     jump endings2
 
 
 label episode3:
     if easymode:
-        show text "Easy Mode points!"
+        show text "Puntos de modo fáciles!"
         show image "images/Stats/Dom[domination].png" at statleft
         show image "images/Stats/Lust[lust].png" at statright
         pause 1
@@ -4219,84 +4219,84 @@ label episode3:
     stop music fadeout 1.0
     play music "music/Mda.wav"
     scene 30001 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Well... It sure was a good day."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Bueno ... seguro que fue un buen día."
     scene 30002 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Of course, I'm curious what's on my [woman_role]'s mind right now... {p}Probably feeling terrible."
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} But it's totally her fault, not mine."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Por supuesto, tengo curiosidad por saber qué hay en mi [woman_role]'s mente ahora mismo ... {p}Probablemente sintiéndose terrible."
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Pero es totalmente su culpa, no la mía."
     scene 30003 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} Huh?{p}Is that...?"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size} ¿Huh? {p} es eso ...?"
     scene 30003drzwi with dissolve
-    "{color=#ffa500}{i}*Front door unlocks"
+    "{color=#ffa500}{i}*Desbloqueos de la puerta delantera"
     scene 30003opendoor with dissolve
     d "Hey hey hey!"
-    d "Guess who's back, amigos!"
+    d "¡Adivina quién ha vuelto, amigas!"
     scene 30004 with dissolve
-    e "Dad? You're back!"
+    e "¿Papá?¡Estás de vuelta!"
     scene 30004dad with dissolve
-    d "Yeah, kid! I’m here now.{p}However, I only came back for a day."
+    d "¡Sí, chico!Estoy aquí ahora.{p}Sin embargo, solo volví por un día."
 
-    d "They canceled one of my meetings and I decided to drop by to see how you were doing."
+    d "Cancelaron una de mis reuniones y decidí pasar para ver cómo estabas."
 
-    d "Is [woman_name] home?"
+    d "Es [woman_name] hogar?"
     scene 30004 with dissolve
-    e "Yeah, probably sleeping in her room. It's Saturday, after all."
+    e "Sí, probablemente durmiendo en su habitación.Es sábado, después de todo."
     scene 30005 with dissolve
-    d "I’ve got to take a bath. I'm all reeky from the trip."
+    d "Tengo que bañarme.Soy todo muy recién del viaje."
 
-    d "And also...[player_name]...{p}I want to talk with you later, but not here and not now."
+    d "Y también ....[player_name]...{p}Quiero hablar contigo más tarde, pero no aquí y no ahora."
     scene 30006 with dissolve
-    d "Maybe we should go out for something to eat later, perhaps?"
+    d "¿Quizás deberíamos salir por algo para comer más tarde, tal vez?"
     scene 30007 with dissolve
-    d "You know, a casual father-son bonding together."
+    d "Ya sabes, un unión casual de padre-hijo juntos."
     scene 30004 with dissolve
-    e "Sure, I’ve got nothing else to do anyway."
+    e "Claro, no tengo nada más que hacer de todos modos."
     scene 30005 with dissolve
-    d "Great, then do whatever you want for a while."
+    d "Genial, luego haz lo que quieras por un tiempo."
     scene 30001 with dissolve
-    "{color=#ffa500}{i}*a voice from the corridor{i}"
+    "{color=#ffa500}{i}*una voz del corredor{i}"
     scene 30003 with dissolve
-    "{color=#ffa500}{i}*a quiet knock on the door{i}"
+    "{color=#ffa500}{i}*un llamado tranquilo en la puerta{i}"
 
     d "Uhm... [woman_name]?"
 
-    d "The doors are closed..."
+    d "Las puertas están cerradas.."
     scene 30002 with dissolve
-    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Of course they are closed... {p}I checked them at night.{/i}"
+    e "{size=-8}{color=#89CFF0}(thinking...){/color}{/size}{i} Por supuesto que están cerradas.. {p}Las revisé por la noche.{/i}"
     scene 30008 with dissolve
-    d "[player_name] do you know why the bedroom door is closed?{p}Is your [woman_role] closing herself off to you?"
+    d "[player_name] ¿Sabes por qué la puerta del dormitorio está cerrada?{p}Es tu [woman_role] ¿Cerrándote a ti?"
     scene 30003 with dissolve
-    e "It's closed? I don't know. You'll have to ask her."
+    e "¿Está cerrado?No sé.Tendrás que preguntarle."
     scene 30005 with dissolve
-    d "Strange..."
+    d "Extraña..."
 
-    d "I'll take a quick bath, and we can go straight away. What do you say?"
+    d "Tomaré un baño rápido y podemos ir de inmediato.¿Qué dices?"
     scene 30003 with dissolve
-    e "Sure"
+    e "Seguro"
 
     scene black with fade
     show text "Local Restaurant" at title with dissolve
     $ renpy.pause(2, hard=True)
     scene 30011b with dissolve
-    d "I missed coming to this place."
+    d "Extrañaba venir a este lugar."
 
-    d "I eat at roadside bars the whole time, and everything they serve tastes like crap."
+    d "Como en las barras de la carretera todo el tiempo, y todo lo que sirven saben a mierda."
     scene 30010 with dissolve
-    e "Figured that out: Food suck that much you’re missing the crap they serve here."
+    e "Supuse eso: la comida apesta tanto que te estás perdiendo la basura que sirven aquí."
     scene 30011a with dissolve
-    d "Alright, let’s get to the point. Do you know why I brought you out here, away from [woman_role]?"
+    d "Muy bien, vamos al grano.¿Sabes por qué te traje aquí, lejos de [woman_role]?"
 
 
     if easymode:
 
         menu:
-            "Because you felt like it?":
+            "¿Porque te apeteciste?":
                 jump dadrestaurant
 
-            "Because you're sleeping with my [woman_role]?\n{color=#3d85c6} Dad +1":
+            "Porque estás durmiendo con mi [woman_role]?\n{color=#3d85c6} Dad +1":
                 $ dadfriend += 1
                 jump dadjokes
 
-            "Because you are super cool dad?":
+            "¿Porque eres súper genial papá?":
                 jump dadrestaurant
     else:
 
